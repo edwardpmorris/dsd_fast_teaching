@@ -1,0 +1,88 @@
+---
+title: 'From data to information'
+subtitle: 'An introduction to using remote sensing data for
+  analysis of foreshore characteristics'
+author: "Edward P. Morris (UCA) and Bas Oteman (NIOZ)"
+date: "October 16, 2015"
+output: ioslides_presentation
+---
+
+## Grab attention slide
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/gF9UlTYR5d0?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+
+
+https://youtu.be/gF9UlTYR5d0
+
+also: https://youtu.be/-WXM9ulaBng?list=PLbyvawxScNbus9n8rmw0GElhPqrCwcsiD
+
+# Remote sensing terminology [15 min]
+
+## Platform, sensor and resolution
+## Electromagnetic radiation
+
+## Passive visible
+
+### Applications
+Contains information on...
+
+## Active radio
+
+### Applications
+Contains information on...
+
+# How to get access to remote sensing data [5 min]
+
+## Data availability
++ a table giving overview of some platform sensors, type of information and availability
+
+## NASA 
++ MERIS
++ Landsat 8 OLI
++ Landsat 7
++ EarthExplorer
+
+## Copernicus 
++ The Sentinels
++ Sentinel 1 C-Band SAR
++ Sentinel 2 MSI
++ SentinelHub
+
+# How to process images [15 min]
+
+## Basic concepts
++ georectifying
++ calibration
+    + at-instrument
+    + top-of-atmosphere
+    + surface
++ morphological operations [filtering, changing resolution]
++ course classification [clouds, shadows, water]
+
+## Sentinel Application Platform (SNAP) a common architecture for all Sentinel Toolboxes
++ open-source
++ sucsessor of the mature BEAM software
++ Java
++ Python bindings
++ Sensor specific toolboxes
+
+## Getting help 
++ Toolbox tutorials
++ The SNAP forum; a shared user experience
++ SNAP development; how to contribute
+
+## The power of the Graph Builder and Graph Processing Tool
++ building workflows [graphs]
++ applying to single image
++ batch processing
++ access via the commandline
++ access via Python
+
+# Practical examples [45 min, exercises on PC]
+
+# Using Sentinel 1 toolbox (S1TBX) to get information about coastal systems [15 min, examples to be defined!]
+
+# Using Sentinel 2 toolbox (S2TBX) to get information about coastal systems [15 min, examples to be defined!]
+
+# Together is better! Synergy products [15 min, examples to be defined!]
