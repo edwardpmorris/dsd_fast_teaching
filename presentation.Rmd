@@ -1,17 +1,25 @@
 ---
-title: 'From data to information'
-subtitle: 'An introduction to using remote sensing data for
-  analysis of foreshore characteristics'
-author: "Edward P. Morris (UCA) and Bas Oteman (NIOZ)"
-date: "October 16, 2015"
-output: ioslides_presentation
+title: "From data to information"
+subtitle: An introduction to using remote sensing data for analysis of foreshore characteristics
+author:
+- company: University of Cadiz
+  github: https://github.com/edwardpmorris
+  name: Edward P. Morris
+  twitter: '@EdwardPMorris'
+  www: http://rnm214.uca.es/CV/emorris/cvepmorris
+- company: NIOZ
+  name: Bas Oteman
+date: "Delft Software Days `r Sys.Date()`"
+output:
+  ioslides_presentation:
+    css: config/ioslides_ceimar.css
+    logo: config/UCA-ceimar-logo-480-198-transparent.png
+    template: config/ioslides_ceimar.html
 ---
 
-## Grab attention slide
-
+#  {.vcenter}
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/gF9UlTYR5d0?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
-
 
 https://youtu.be/gF9UlTYR5d0
 
