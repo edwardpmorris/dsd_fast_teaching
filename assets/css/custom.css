@@ -4,13 +4,14 @@ body{
 }
 
 /* TITLE PAGE */
-.title-slide{
-  background-color: white;
-  background-image: url(background_white.png);
+.nobackground{
+  background-color:white;
+  background-image: url(../img/background_frontpage.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50% 50%;
 }
+
 .title-slide hgroup h1 {
   font-size: 60px;
   line-height: 1.4;
@@ -27,39 +28,16 @@ body{
 
 /* LOGO */
 aside.gdbar {
-  height: 175px; /* 97 */
-  width: 795px; /* 215 */
+  height: 200px; /* 97 */
+  width: 900px; /* 215 */
   left: -1px;
   top: 50px;
 }
 aside.gdbar img {
-  width: 790px; /*85*/
-  height: 135px; /*85*/
+  width: 890px; /*85*/
+  height: 160px; /*85*/
   position: absolute;
   left: -25px;
   margin: 20px 25px;
 }
 
-/* SECTIONS */
-.dark-scientist {
-  background: #604c3f;
-  background-image: url(comic_scientist_screen.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: 50% 50%;
-}
-
-/* SLIDE STYLES 
-slide.fill {
-  background-repeat: no-repeat;
-  @include background-size(cover);
-}
-slide.fill img {
-  position: absolute;
-  left: 0;
-  top: 0;
-  min-width: 100%;
-  min-height: 100%;
-  z-index: -1;
-}
-*/
