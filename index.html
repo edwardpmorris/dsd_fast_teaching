@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>From data to information</title>
+  <meta charset="utf-8">
+  <meta name="description" content="From data to information">
+  <meta name="author" content="list(company = &quot;University of Cadiz&quot;, github = &quot;https://github.com/edwardpmorris&quot;, name = &quot;Edward P. Morris&quot;, twitter = &quot;@EdwardPMorris&quot;, www = &quot;http://rnm214.uca.es/CV/emorris/cvepmorris&quot;),list(company = &quot;NIOZ&quot;, name = &quot;Bas Oteman&quot;)">
+  <meta name="generator" content="slidify" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/default.css" media="all" >
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/phone.css" 
+    media="only screen and (max-device-width: 480px)" >
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/slidify.css" >
+  <link rel="stylesheet" href="libraries/highlighters/prettify/css/tomorrow.css" />
+  <base target="_blank"> <!-- This amazingness opens all links in a new tab. -->  <link rel=stylesheet href="./assets/css/custom.css"></link>
+<link rel=stylesheet href="./assets/css/ribbons.css"></link>
+
+  
+  <!-- Grab CDN jQuery, fall back to local if offline -->
+  <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.7.min.js"></script>
+  <script>window.jQuery || document.write('<script src="libraries/widgets/quiz/js/jquery.js"><\/script>')</script> 
+  <script data-main="libraries/frameworks/io2012/js/slides" 
+    src="libraries/frameworks/io2012/js/require-1.0.8.min.js">
+  </script>
+  
+  
+
+</head>
+<body style="opacity: 0">
+  <slides class="layout-widescreen">
+    
+    <!-- LOGO SLIDE -->
+        <slide class="title-slide segue nobackground">
+  <aside class="gdbar">
+    <img src="assets/img/UCA-ceimar-NIOZ-FAST-logo-1100-198-transparent.png">
+  </aside>
+  <hgroup class="auto-fadein">
+    <h1>From data to information</h1>
+    <h2>An introduction to using remote sensing data for analysis of foreshore characteristics</h2>
+    <p>list(company = &quot;University of Cadiz&quot;, github = &quot;https://github.com/edwardpmorris&quot;, name = &quot;Edward P. Morris&quot;, twitter = &quot;@EdwardPMorris&quot;, www = &quot;http://rnm214.uca.es/CV/emorris/cvepmorris&quot;),list(company = &quot;NIOZ&quot;, name = &quot;Bas Oteman&quot;)<br/></p>
+  </hgroup>
+  <article></article>  
+</slide>
+    
+
+    <!-- SLIDES -->
+    <slide class="" id="slide-1" style="background:;">
+  <article data-timings="">
+    
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+<slide class="class1" id="id1" style="background:url(assets/img/background_black.png);background-size:cover;background-color:black;">
+  <article data-timings="">
+    <iframe width="565" height="315" src="https://www.youtube.com/embed/gF9UlTYR5d0?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+
+<p><a href="https://youtu.be/gF9UlTYR5d0">https://youtu.be/gF9UlTYR5d0</a></p>
+
+<p>also: <a href="https://youtu.be/-WXM9ulaBng?list=PLbyvawxScNbus9n8rmw0GElhPqrCwcsiD">https://youtu.be/-WXM9ulaBng?list=PLbyvawxScNbus9n8rmw0GElhPqrCwcsiD</a></p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+<slide class="class1" id="id2" style="background:url(assets/img/background_space.png);background-size:cover;">
+  <hgroup>
+    <h2>Remote sensing terminology [15 min]</h2>
+  </hgroup>
+  <article data-timings="">
+    
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+<slide class="class1" id="id3" style="background:url(assets/img/background_white.png);background-size:cover;">
+  <hgroup>
+    <h2>Platform, sensor and resolution {class: nobackground fill}</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>testing dark background</p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+<slide class="class1" id="id3" style="background:url(assets/img/background_white.png);background-size:cover;">
+  <hgroup>
+    <h2>Electromagnetic radiation</h2>
+  </hgroup>
+  <article data-timings="">
+    
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+<slide class="class1" id="id3" style="background:url(assets/img/background_white.png);background-size:cover;">
+  <hgroup>
+    <h2>Passive visible</h2>
+  </hgroup>
+  <article data-timings="">
+    
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+<slide class="class1" id="id3" style="background:url(assets/img/background_white.png);background-size:cover;">
+  <hgroup>
+    <h3>Applications</h3>
+  </hgroup>
+  <article data-timings="">
+    <p>Contains information on...</p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+<slide class="class1" id="id3" style="background:url(assets/img/background_white.png);background-size:cover;">
+  <hgroup>
+    <h2>Active radio</h2>
+  </hgroup>
+  <article data-timings="">
+    
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+<slide class="class1" id="id3" style="background:url(assets/img/background_white.png);background-size:cover;">
+  <hgroup>
+    <h3>Applications</h3>
+  </hgroup>
+  <article data-timings="">
+    <p>Contains information on...</p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+<slide class="class1" id="id4" style="background:url(assets/img/comic_scientist_screen.png);background-size:cover;">
+  <hgroup>
+    <h1>How to get access to remote sensing data</h1>
+  </hgroup>
+  <article data-timings="">
+    
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+<slide class="" id="slide-11" style="background:;">
+  <hgroup>
+    <h2>Data availability</h2>
+  </hgroup>
+  <article data-timings="">
+    <ul>
+<li>a table giving overview of some platform sensors, type of information and availability</li>
+</ul>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+<slide class="" id="slide-12" style="background:;">
+  <hgroup>
+    <h2>NASA</h2>
+  </hgroup>
+  <article data-timings="">
+    <ul>
+<li>MERIS</li>
+<li>Landsat 8 OLI</li>
+<li>Landsat 7</li>
+<li>EarthExplorer</li>
+</ul>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+<slide class="" id="slide-13" style="background:;">
+  <hgroup>
+    <h2>Copernicus</h2>
+  </hgroup>
+  <article data-timings="">
+    <ul>
+<li>The Sentinels</li>
+<li>Sentinel 1 C-Band SAR</li>
+<li>Sentinel 2 MSI</li>
+<li>SentinelHub</li>
+</ul>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+<slide class="" id="slide-14" style="background:;">
+  <hgroup>
+    <h1>How to process images</h1>
+  </hgroup>
+  <article data-timings="">
+    
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+<slide class="" id="slide-15" style="background:;">
+  <hgroup>
+    <h2>Basic concepts</h2>
+  </hgroup>
+  <article data-timings="">
+    <ul>
+<li>georectifying</li>
+<li>calibration
+
+<ul>
+<li>at-instrument</li>
+<li>top-of-atmosphere</li>
+<li>surface</li>
+</ul></li>
+<li>morphological operations [filtering, changing resolution]</li>
+<li>course classification [clouds, shadows, water]</li>
+</ul>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+<slide class="" id="slide-16" style="background:;">
+  <hgroup>
+    <h2>Sentinel Application Platform (SNAP) | A common architecture for all Sentinel Toolboxes</h2>
+  </hgroup>
+  <article data-timings="">
+    <ul>
+<li>open-source</li>
+<li>sucsessor of the mature BEAM software</li>
+<li>Java</li>
+<li>Python bindings</li>
+<li>Sensor specific toolboxes</li>
+</ul>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+<slide class="" id="slide-17" style="background:;">
+  <hgroup>
+    <h2>Getting help</h2>
+  </hgroup>
+  <article data-timings="">
+    <ul>
+<li>Toolbox tutorials</li>
+<li>The SNAP forum; a shared user experience</li>
+<li>SNAP development; how to contribute</li>
+</ul>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+<slide class="" id="slide-18" style="background:;">
+  <hgroup>
+    <h2>The power of the Graph Builder and Graph Processing Tool</h2>
+  </hgroup>
+  <article data-timings="">
+    <ul>
+<li>building workflows [graphs]</li>
+<li>applying to single image</li>
+<li>batch processing</li>
+<li>access via the commandline</li>
+<li>access via Python</li>
+</ul>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+<slide class="" id="slide-19" style="background:;">
+  <hgroup>
+    <h1>Practical examples [45 min, exercises on PC]</h1>
+  </hgroup>
+  <article data-timings="">
+    
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+<slide class="" id="slide-20" style="background:;">
+  <hgroup>
+    <h1>Using Sentinel 1 toolbox (S1TBX) to get information about coastal systems [15 min, examples to be defined!]</h1>
+  </hgroup>
+  <article data-timings="">
+    
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+<slide class="" id="slide-21" style="background:;">
+  <hgroup>
+    <h1>Using Sentinel 2 toolbox (S2TBX) to get information about coastal systems [15 min, examples to be defined!]</h1>
+  </hgroup>
+  <article data-timings="">
+    
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+<slide class="" id="slide-22" style="background:;">
+  <hgroup>
+    <h1>Together is better! Synergy products [15 min, examples to be defined!]</h1>
+  </hgroup>
+  <article data-timings="">
+    
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+<slide class="" id="slide-23" style="background:;">
+  <article data-timings="">
+    
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+    <slide class="backdrop"></slide>
+  </slides>
+  <div class="pagination pagination-small" id='io2012-ptoc' style="display:none;">
+    <ul>
+      <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=1 title='NA'>
+         1
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=2 title='NA'>
+         2
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=3 title='Remote sensing terminology [15 min]'>
+         3
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=4 title='Platform, sensor and resolution {class: nobackground fill}'>
+         4
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=5 title='Electromagnetic radiation'>
+         5
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=6 title='Passive visible'>
+         6
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=7 title='Applications'>
+         7
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=8 title='Active radio'>
+         8
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=9 title='Applications'>
+         9
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=10 title='How to get access to remote sensing data'>
+         10
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=11 title='Data availability'>
+         11
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=12 title='NASA'>
+         12
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=13 title='Copernicus'>
+         13
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=14 title='How to process images'>
+         14
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=15 title='Basic concepts'>
+         15
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=16 title='Sentinel Application Platform (SNAP) | A common architecture for all Sentinel Toolboxes'>
+         16
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=17 title='Getting help'>
+         17
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=18 title='The power of the Graph Builder and Graph Processing Tool'>
+         18
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=19 title='Practical examples [45 min, exercises on PC]'>
+         19
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=20 title='Using Sentinel 1 toolbox (S1TBX) to get information about coastal systems [15 min, examples to be defined!]'>
+         20
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=21 title='Using Sentinel 2 toolbox (S2TBX) to get information about coastal systems [15 min, examples to be defined!]'>
+         21
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=22 title='Together is better! Synergy products [15 min, examples to be defined!]'>
+         22
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=23 title='NA'>
+         23
+      </a>
+    </li>
+  </ul>
+  </div>  <!--[if IE]>
+    <script 
+      src="http://ajax.googleapis.com/ajax/libs/chrome-frame/1/CFInstall.min.js">  
+    </script>
+    <script>CFInstall.check({mode: 'overlay'});</script>
+  <![endif]-->
+</body>
+  <!-- Load Javascripts for Widgets -->
+  
+  <!-- Google Prettify -->
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/prettify/188.0.0/prettify.js"></script>
+  <script src='libraries/highlighters/prettify/js/lang-r.js'></script>
+  <script>
+    var pres = document.getElementsByTagName("pre");
+    for (var i=0; i < pres.length; ++i) {
+      pres[i].className = "prettyprint linenums";
+    }
+    prettyPrint();
+  </script>
+  <!-- End Google Prettify --> 
+  </html>

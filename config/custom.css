@@ -1,0 +1,112 @@
+::selection {
+  color: white;
+  background-color: #ffd14d;
+  text-shadow: none;
+}
+
+/* line 127, ../scss/default.scss */
+slides > slide.dark {
+  background: #604c3f !important;
+}
+
+slides > slide.dark {
+  background-image: url(backgrounds/comic_scientist_screen.png) !important;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+slides > slide.backdrop {
+  z-index: -10;
+  display: block !important;
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(85%, #ffffff), color-stop(100%, #e6e6e6));
+  background: -webkit-linear-gradient(#ffffff, #ffffff 85%, #e6e6e6);
+  background: -moz-linear-gradient(#ffffff, #ffffff 85%, #e6e6e6);
+  background: -o-linear-gradient(#ffffff, #ffffff 85%, #e6e6e6);
+  background: linear-gradient(#ffffff, #ffffff 85%, #e6e6e6);
+  background-image: url(backgrounds/background_white.png) !important;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+/* line 891, ../scss/default.scss */
+.title-slide hgroup h1 {
+  font-size: 60px;
+  line-height: 1.4;
+  letter-spacing: -3px;
+  color: #515151;
+}
+
+/* line 898, ../scss/default.scss */
+.title-slide hgroup h2 {
+  font-size: 30px;
+  color: darkgrey;
+  font-weight: inherit;
+  font-family: 'Fira Sans'
+}
+
+aside.gdbar {
+  height: 175px; /* 97 */
+  width: 795px; /* 215 */
+  left: -1px;
+  top: 50px;
+  -webkit-border-radius: 0 10px 10px 0;
+  -moz-border-radius: 0 10px 10px 0;
+  -ms-border-radius: 0 10px 10px 0;
+  -o-border-radius: 0 10px 10px 0;
+  border-radius: 0 10px 10px 0;
+  background: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, #e6e6e6), color-stop(100%, #e6e6e6)) no-repeat;
+  background: -webkit-linear-gradient(left, #e6e6e6, #e6e6e6) no-repeat;
+  background: -moz-linear-gradient(left, #e6e6e6, #e6e6e6) no-repeat;
+  background: -o-linear-gradient(left, #e6e6e6, #e6e6e6) no-repeat;
+  background: linear-gradient(left, #e6e6e6, #e6e6e6) no-repeat;
+  -webkit-background-size: 0% 100%;
+  -moz-background-size: 0% 100%;
+  -o-background-size: 0% 100%;
+  background-size: 0% 100%;
+  -webkit-transition: all 0.5s ease-out;
+  -webkit-transition-delay: 0.5s;
+  -moz-transition: all 0.5s ease-out 0.5s;
+  -o-transition: all 0.5s ease-out 0.5s;
+  transition: all 0.5s ease-out 0.5s;
+  /* Better to transition only on background-size, but not sure how to do that with the mixin. */
+}
+
+/* line 877, ../scss/default.scss */
+/* LOGO */
+aside.gdbar img {
+  width: 749px; /*85*/
+  height: 135px; /*85*/
+  position: absolute;
+  left: -25px;
+  margin: 20px 25px;
+}
+
+/* line 526, ../scss/default.scss */
+slide.fill {
+  background-repeat: no-repeat;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+slide > slide
+{
+background-color: white;
+}
+
+slide [data-slide-num="2"]
+{
+background-color: black;
+}
+
+body {
+  background: white;
+}
