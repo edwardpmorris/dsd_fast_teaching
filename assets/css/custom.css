@@ -4,7 +4,7 @@ body{
 }
 
 /* TITLE PAGE */
-.nobackground{
+.title-slide {
   background-color:white;
   background-image: url(../img/background_frontpage.png);
   background-size: cover;

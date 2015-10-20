@@ -87,7 +87,7 @@ Contains information on...
 + Sentinel 2 MSI
 + SentinelHub
 
---- .segue #id6 bg:url(assets/img/background_scientist_screen.png);background-size:cover
+--- .segue #id6 bg:url(assets/img/background_scientist_screen.png);background-size:cover;background-color:604c3f;
 
 ## How to process images
 
