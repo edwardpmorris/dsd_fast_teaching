@@ -33,7 +33,7 @@ José Achache, Director of the GEO Secretariat.
 
 --- .class1 #id1 bg:black;
 
-<iframe width="565" height="315" src="https://www.youtube.com/embed/gF9UlTYR5d0?rel=0&amp;controls=0&amp;showinfo=0" frameborder="-1" allowfullscreen></iframe>
+<iframe width="565" height="315" src="https://www.youtube-nocookie.com/embed/gF9UlTYR5d0?rel=0&amp;controls=0&amp;showinfo=0;&autoplay=1" frameborder="-1" allowfullscreen></iframe>
 
 <div style="position: absolute; left: 200px; top:625px; z-index:10; font-size:14px">
     <p>https://youtu.be/gF9UlTYR5d0</p>
@@ -41,7 +41,7 @@ José Achache, Director of the GEO Secretariat.
 
 --- .class1 #id1 bg:black;
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/28hImDyJXu0?list=PLbyvawxScNbs9ET50PFwZTworudkNsnH_" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/28hImDyJXu0?controls=0&amp;showinfo=0;&start=36" frameborder="-1" allowfullscreen></iframe>
 
 <div style="position: absolute; left: 200px; top:625px; z-index:10; font-size:14px">
     <p>https://youtu.be/28hImDyJXu0?list=PLbyvawxScNbs9ET50PFwZTworudkNsnH_</p>
@@ -50,12 +50,34 @@ José Achache, Director of the GEO Secretariat.
 --- .segue #id2 bg:url(assets/img/background_space.png);background-size:cover;
 ## Remote sensing terminology
 
---- .class1 #id3 bg:url(assets/img/background_white_astronaut.png);background-size:cover;
+--- &twocol .class1 #id3 bg:url(assets/img/background_white_astronaut.png);background-size:cover;
 ## Platform, sensor and resolution
 
+*** =left
+### Satellite
+![platform-sensor](assets/img/platform-sensor-600-600.png)
 
---- .class1 #id3 bg:url(assets/img/background_white_astronaut.png);background-size:cover; 
+*** =right
+### Platform
+[Landsat 8](http://landsat.usgs.gov/landsat8.php), [Sentinel 1A](https://sentinel.esa.int/web/sentinel/missions/sentinel-1), [Sentinel 2A](https://sentinel.esa.int/web/sentinel/missions/sentinel-2)
+
+### Sensor or Instrument
+[OLI](http://landsat.usgs.gov/ldcm_vs_previous.php) + [TIRS](http://landsat.usgs.gov/ldcm_vs_previous.php), [C-SAR](https://sentinel.esa.int/web/sentinel/sentinel-1-sar-wiki/-/wiki/Sentinel%20One/Instrument), [MSI](https://sentinel.esa.int/web/sentinel/technical-guides/sentinel-2-msi/msi-instrument)
+
+### Resolution
++ Spatial: Pixel size, extent
++ Temporal: Revisit time
++ Spectral: Band width, Number of bands, Sensitivity
+
+--- .class1 #id3 bg:url(assets/img/background_white_astronaut.png);background-size:cover;
 ## Electromagnetic radiation
+
+<pw><a href="https://commons.wikimedia.org/wiki/File:EM_spectrum.svg#/media/File:EM_spectrum.svg"><img src="https://upload.wikimedia.org/wikipedia/commons/f/f1/EM_spectrum.svg" alt="EM spectrum.svg" width="900"></a><br>"<a href="https://commons.wikimedia.org/wiki/File:EM_spectrum.svg#/media/File:EM_spectrum.svg">EM spectrum</a>". Licensed under <a href="http://creativecommons.org/licenses/by-sa/3.0/" title="Creative Commons Attribution-Share Alike 3.0">CC BY-SA 3.0</a> via <a href="https://commons.wikimedia.org/wiki/">Commons</a>.</pw>
+
+--- .class1 #id3 bg:url(assets/img/background_white_astronaut.png);background-size:cover;
+## Electromagnetic radiation
+
+<pw><a href="https://commons.wikimedia.org/wiki/File:Atmospheric_electromagnetic_opacity.svg#/media/File:Atmospheric_electromagnetic_opacity.svg"><img src="https://upload.wikimedia.org/wikipedia/commons/3/34/Atmospheric_electromagnetic_opacity.svg" alt="Atmospheric electromagnetic opacity.svg" width=900></a><br>"<a href="https://commons.wikimedia.org/wiki/File:Atmospheric_electromagnetic_opacity.svg#/media/File:Atmospheric_electromagnetic_opacity.svg">Atmospheric electromagnetic opacity</a>" by NASA (original); SVG by <a href="//en.wikipedia.org/wiki/User:Mysid" class="extiw" title="w:User:Mysid">Mysid</a>. - Vectorized by <a href="//en.wikipedia.org/wiki/User:Mysid" class="extiw" title="w:User:Mysid">User:Mysid</a> in Inkscape, original NASA image from <a href="//commons.wikimedia.org/wiki/File:Atmospheric_electromagnetic_transmittance_or_opacity.jpg" title="File:Atmospheric electromagnetic transmittance or opacity.jpg">File:Atmospheric electromagnetic transmittance or opacity.jpg</a>.. Licensed under Public Domain via <a href="https://commons.wikimedia.org/wiki/">Commons</a>.</pw>
 
 --- .class1 #id3 bg:url(assets/img/background_white_astronaut.png);background-size:cover;
 ## Passive visible
