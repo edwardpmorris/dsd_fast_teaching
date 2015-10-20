@@ -12,7 +12,7 @@ author:
 #  www: http://rnm214.uca.es/CV/emorris/cvepmorris
 #- company: NIOZ
 #  name: Bas Oteman
-date: "Delft Software Days 2015-10-19"
+date: "Delft Software Days 2015-10-20"
 logo        : UCA-ceimar-NIOZ-FAST-logo-1100-198-transparent.png
 framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
 highlighter : prettify      # {highlight.js, prettify, highlight}
