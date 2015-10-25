@@ -479,11 +479,11 @@ Course classification [clouds, shadows, water]
 ## Now your turn...
 
 --- .class1 #id5 bg:url(assets/img/background_white_endusers.png);background-size:cover;
-## Using Sentinel 1 toolbox (S1TBX) to get information about coastal systems [15 min, examples to be defined!]
+## Using Sentinel 1 toolbox (S1TBX) to get information about coastal systems [45 min]
 
 + stick to original zip product
 + further processing using dimap
-+ 1 image (chosen region depends on if we use S2, or Westerschelde)
++ 1 image (Westerschelde)
 
 L1:
 + open image
@@ -501,34 +501,3 @@ L2:
 
 L3:
 + threshold or classify
-
---- .class1 #id5 bg:url(assets/img/background_white_endusers.png);background-size:cover;
-## Using Sentinel 2 toolbox (S2TBX) to get information about coastal systems [15 min, examples to be defined!]
-
-+ check if image in italy is useful, check possibility of using landsat
-
-L1:
-+ open image
-+ masking/clipping
-+ calibration - at-sensor, TOA, and surface??
-+ look at a profile and spectra 
-+ export data
-
-L2:
-+ calculate band ratios using calculator (NDVI, MNDWI)
-
-L3:
-+ threshold, pca, classify
-
---- .class1 #id5 bg:url(assets/img/background_white_endusers.png);background-size:cover;
-## Together is better! Synergy products [15 min, examples to be defined!]
-
-L1:
-+ open 2 images (provide images as backup)
-+ resample S1 to 10 m
-+ combine virtual raster
-+ look at a profile
-+ export data
-
-L3:
-+ pca, classify
