@@ -1,0 +1,8 @@
+"Name";"Abbreviation";"Resolution (m)";"Availability";"Return Interval";"Type*";"Platform"
+"Landsat Thematic Mapper 5";"L5-TM";"30,60";"1984 to 2013";"16 days";"M";"Satellite"
+"Landsat Enhanced Thematic Mapper 7";"L7-ETM";"15,30,60";"1995 to 2003";"16 days";"P,M";"Satellite"
+"Moderate-resolution Imaging Spectroradiometer";"MODIS";"250,500,1000";"2000 to present";"Daily";"M";"Satellite"
+"Medium Resolution Imaging Spectrometer";"ENVISAT-MERIS";300;"2002 to present";"3 days";"M";"Satellite"
+"Landsat Data Continuity Mission (Landsat 8)";"L8-OLI";"15,30,100";"2013 to present";"16 days";"P,M";"Satellite"
+"Copernicus Sentinel-1A ";"S-1A";"4,10,25,40";"2015 to present";"12 (6) days";"R";"Satellite"
+"Copernicus Sentinel-2A ";"S-2A";"10,20,60";"2015 to present";"12 (6) days";"M";"Satellite"

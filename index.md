@@ -12,7 +12,7 @@ author:
 #  www: http://rnm214.uca.es/CV/emorris/cvepmorris
 #- company: NIOZ
 #  name: Bas Oteman
-date: "Delft Software Days 2015-10-23"
+date: "Delft Software Days 2015-10-25"
 logo        : UCA-ceimar-NIOZ-FAST-logo-1100-198-transparent.png
 biglogo     : FAST_ENGLISHLOW.jpg
 framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
@@ -33,7 +33,9 @@ José Achache, Director of the GEO Secretariat.
 
 --- .class1 #id1 bg:black;
 
-<iframe width="565" height="315" src="https://www.youtube-nocookie.com/embed/gF9UlTYR5d0?rel=0&amp;controls=0&amp;showinfo=0;&autoplay=1" frameborder="-1" allowfullscreen></iframe>
+
+
+<iframe src="//commons.wikimedia.org/wiki/File:NASA's_2011_fleet_of_Earth_remote_sensing_observatories.ogv?embedplayer=yes" width="854" height="480" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 
 <div style="position: absolute; left: 200px; top:625px; z-index:10; font-size:14px">
     <p>https://youtu.be/gF9UlTYR5d0</p>
@@ -69,25 +71,27 @@ José Achache, Director of the GEO Secretariat.
 + Temporal: Revisit time
 + Spectral: Band width, Number of bands, Sensitivity
 
---- .class1 #id3 bg:url(assets/img/background_white_astronaut.png);background-size:cover;
-## Electromagnetic radiation
-
-<pw><a href="https://commons.wikimedia.org/wiki/File:EM_spectrum.svg#/media/File:EM_spectrum.svg"><img src="https://upload.wikimedia.org/wikipedia/commons/f/f1/EM_spectrum.svg" alt="EM spectrum.svg" width="900"></a><br>"<a href="https://commons.wikimedia.org/wiki/File:EM_spectrum.svg#/media/File:EM_spectrum.svg">EM spectrum</a>". Licensed under <a href="http://creativecommons.org/licenses/by-sa/3.0/" title="Creative Commons Attribution-Share Alike 3.0">CC BY-SA 3.0</a> via <a href="https://commons.wikimedia.org/wiki/">Commons</a>.</pw>
-
 --- &twocol .class1 #id3 bg:url(assets/img/background_white_astronaut.png);background-size:cover;
 ## Electromagnetic radiation
 
 *** =left
+Has both wave and particle properties at the same time (wave-particle duality).
 
-Has both wave and particle properties at the same time
-
-+ <b>Polarisation</b>
-    + waves oscillate in more than one orientation
++ Waves can be described by their <b>amplitude</b> and <b>wavelength</b>
++ <b>Polarisation:</b> waves oscillate in more than one orientation
++ <b>Photons</b> are the elementary particles of eletromagnetic radiation
++ Photons can be interact with matter by <b>scattering</b> and <b>absorption</b>
++ <b>Reflectance</b> is scattering in a defined direction
     
 *** =right
 
+<div>
 <pw><a href="https://commons.wikimedia.org/wiki/File:Electromagneticwave3D.gif#/media/File:Electromagneticwave3D.gif"><img alt="Electromagneticwave3D.gif" width=400px src="https://upload.wikimedia.org/wikipedia/commons/4/4c/Electromagneticwave3D.gif"></a><br>"<a href="https://commons.wikimedia.org/wiki/File:Electromagneticwave3D.gif#/media/File:Electromagneticwave3D.gif">Electromagneticwave3D</a>" by <a href="//commons.wikimedia.org/wiki/User:Lookang" title="User:Lookang">Lookang</a> many thanks to <a rel="nofollow" class="external text" href="http://www.phy.ntnu.edu.tw/ntnujava/index.php">Fu-Kwun Hwang</a> and <a rel="nofollow" class="external text" href="http://www.compadre.org/osp/items/detail.cfm?ID=7305">author of Easy Java Simulation = Francisco Esquembre</a> - <span class="int-own-work" lang="en">Own work</span>. Licensed under <a title="Creative Commons Attribution-Share Alike 3.0" href="http://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a> via <a href="https://commons.wikimedia.org/wiki/">Commons</a>.</pw>
- 
+</div> 
+
+--- .class1 #id3 bg:url(assets/img/background_white_astronaut.png);background-size:cover;
+## Electromagnetic radiation
+<pw><a href="https://commons.wikimedia.org/wiki/File:EM_spectrum.svg#/media/File:EM_spectrum.svg"><img src="https://upload.wikimedia.org/wikipedia/commons/f/f1/EM_spectrum.svg" alt="EM spectrum.svg" width="900"></a><br>"<a href="https://commons.wikimedia.org/wiki/File:EM_spectrum.svg#/media/File:EM_spectrum.svg">EM spectrum</a>". Licensed under <a href="http://creativecommons.org/licenses/by-sa/3.0/" title="Creative Commons Attribution-Share Alike 3.0">CC BY-SA 3.0</a> via <a href="https://commons.wikimedia.org/wiki/">Commons</a>.</pw>
 
 --- .class1 #id3 bg:url(assets/img/background_white_astronaut.png);background-size:cover;
 ## Electromagnetic radiation
@@ -131,6 +135,20 @@ Surfaces have specific <b>reflection</b> and <b>absorption</b> properties
 --- .class1 .vcenter #id3 bg:url(assets/img/background_white_astronaut.png);background-size:cover;
 ## Passive visible (+ infrared)
 <p style= "width: 900px;">
+Water strongly absorbs light giving it a distinctive <b>reflectance spectra</b> that can be summarised by spectral indices (ratios), e.g., the 'Normalised Difference Water Index' (NDWI, ADD REFERENCE).
+</p>
+
+<div style="position: absolute; left: 210px; top:225px;">
+<pw><a href="https://commons.wikimedia.org/wiki/File:Absorption_spectrum_of_liquid_water.png#/media/File:Absorption_spectrum_of_liquid_water.png"><img alt="Absorption spectrum of liquid water.png" src="https://upload.wikimedia.org/wikipedia/commons/1/18/Absorption_spectrum_of_liquid_water.png" height="400" ></a><br>"<a href="https://commons.wikimedia.org/wiki/File:Absorption_spectrum_of_liquid_water.png#/media/File:Absorption_spectrum_of_liquid_water.png">Absorption spectrum of liquid water</a>" by <a href="//en.wikipedia.org/wiki/User:Kebes" class="extiw" title="wikipedia:User:Kebes">Kebes</a> at <a href="//en.wikipedia.org/wiki/" class="extiw" title="wikipedia:">English Wikipedia</a>. Licensed under <a title="Creative Commons Attribution-Share Alike 3.0" href="http://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a> via <a href="https://commons.wikimedia.org/wiki/">Commons</a>.</pw>
+</div>
+
+<div style="position: absolute; left: 400px; top:190px; z-index:10; font-size:18px">
+    <p><b>NDWI</b> = (<span style="color:#a23c52;font-weight:bold">NIR</span> - <span style="color:green; font-weight:bold">Green</span>)/(<span style="color:#a23c52;font-weight:bold">NIR</span> + <span style="color:green; font-weight:bold">Green</span>)</p>
+</div>
+
+--- .class1 .vcenter #id3 bg:url(assets/img/background_white_astronaut.png);background-size:cover;
+## Passive visible (+ infrared)
+<p style= "width: 900px;">
 All photosynthetic organisms contain chlorophyll giving them a distinctive <b>reflectance spectra</b> that can be summarised by spectral indices (ratios), e.g., the 'Normalised Difference Vegetation Index' (NDVI).
 </p>
 
@@ -140,31 +158,35 @@ All photosynthetic organisms contain chlorophyll giving them a distinctive <b>re
 </div>
 
 <div style="position: absolute; left: 400px; top:225px; z-index:10; font-size:18px">
-    <p><b>NDVI</b> = (<span style="color:#CCCC00;font-weight:bold">NIR</span> - <span style="color:red; font-weight:bold">Red</span>)/(<span style="color:#CCCC00;font-weight:bold">NIR</span> + <span style="color:red; font-weight:bold">Red</span>)</p>
+    <p><b>NDVI</b> = (<span style="color:#a23c52;font-weight:bold">NIR</span> - <span style="color:red; font-weight:bold">Red</span>)/(<span style="color:#a23c52;font-weight:bold">NIR</span> + <span style="color:red; font-weight:bold">Red</span>)</p>
 </div>
 
---- .class1 .vcenter #id3 bg:url(assets/img/background_white_astronaut.png);background-size:cover;
+--- &twocol .class1 #id3 bg:url(assets/img/background_white_astronaut.png);background-size:cover;
 ## Passive visible (+ infrared)
 <p style= "width: 900px;">
-Spectral ratios, such as NDVI can be used to <b>quantify properties of foreshores</b>.
+Spectral ratios, such as NDWI and NDVI can be used to <b>quantify properties of foreshores</b>.
 </p>
 
-<div style="position: absolute; left: 240px; top:145px;">
-<pw><a href="http://www.springerlink.com/content/y221800764571628"><img alt="NDVI_chl_Kromkamp_etal_2006.png" src="assets/img/NDVI_chl_Kromkamp_etal_2006.png" height=450px style="margin:10px 0px"> </a>
-<br>"<a href="http://www.springerlink.com/content/y221800764571628">Fig. 6 Relationship between NDVI and chlorophyll...</a>" by <a href="http://www.springerlink.com/content/y221800764571628"> Kromkamp et al. 2006</a>. Licensed under Open Access by <a href="www.springer.com">Springer</a>.</pw>
+*** =left
+<div>
+<pw><a href="http://www.springerlink.com/content/y221800764571628"><img alt="NDVI_chl_Kromkamp_etal_2006.png" src="assets/img/NDVI_chl_Kromkamp_etal_2006.png" height=350px style="margin:10px 0px"> </a>
+<br>"<a href="http://www.springerlink.com/content/y221800764571628">Fig. 6 Relationship between NDVI and chlorophyll...</a>" by <a href="http://www.springerlink.com/content/y221800764571628"> Kromkamp et al. 2006</a>. </pw>
+</div>
+
+*** =right
+<div>
+<pw><img alt="mean_mndwi_cadiz.png" src="assets/img/mean_mndwi_cadiz.png" height=350px style="margin:10px 0px">
+<br>"Time-ensemble (2000-2015) mean modified normalised difference water index (MNDWI) of Cadiz Bay derived from the Landsat (USGS) archive" by <a href="http://www.fast-space-project.eu"> FAST project</a>. </pw>
 </div>
 
 --- .class1 #id3 bg:url(assets/img/background_white_astronaut.png);background-size:cover;
 ## Passive visible (+ infrared)
 <p style= "width: 900px;">
-The different pigments of photosynthetic organisms result in different 'colours', potentially allowing identification of foreshore vegetation types.
+The different pigments of photosynthetic organisms result in different 'colours', potentially allowing <b>identification of foreshore vegetation types</b>.
 </p>
-<div id="my-div">
-<iframe src="https://en.wikipedia.org/wiki/Chloroplast#Structure" id="my-iframe" scrolling="no"></iframe>
-</div>
-
-<div style="position: absolute; left: 800px; top:635px; z-index:10; font-size:16px">
-    <pw><a href=https://en.wikipedia.org/wiki/Chloroplast#Structure> wikipedia.org/wiki/Chloroplast</a></pw>
+<div style="position: absolute; left: 50px; top:200px;">
+<pw><a href="https://en.wikipedia.org/wiki/Chloroplast#Structure"><img alt=photosynthetic-pigments.png" src="assets/img/photosynthetic-pigments.png" height=350px style="margin:10px 0px"> </a>
+<br><a href="https://en.wikipedia.org/wiki/Chloroplast#Structure">wikipedia.org/wiki/Chloroplast</a>.</pw>
 </div>
 
 --- .class1 #id3 bg:url(assets/img/background_white_astronaut.png);background-size:cover;
@@ -199,27 +221,288 @@ Active radar (SAR):
 
 --- .class1 #id5 bg:url(assets/img/background_white_scientist_tablet.png);background-size:cover;
 ## Data availability
-+ a table giving overview of some platform sensors, type of information and availability
+
+<table>
+<caption>Some earth observation satellites with open access data, based on <a href=http://wiki.landscapetoolbox.org/doku.php/remote_sensor_types:home>wiki.landscapetoolbox.org</a>. *C=Color, E=Elevation, H=Hyperspectral, M=Multispectral, P=Panchromatic, R=Syntheric Aperature Radar</caption>
+ <thead>
+  <tr>
+   <th> Name </th>
+   <th> Abbreviation </th>
+   <th> Resolution (m) </th>
+   <th> Availability </th>
+   <th> Return Interval </th>
+   <th> Type* </th>
+   <th> Platform </th>
+  </tr>
+ </thead>
+<tbody>
+  <tr>
+   <td> Landsat Multi-spectral Scanner </td>
+   <td> L4-MSS </td>
+   <td> 80 </td>
+   <td> 1972 to 1997 </td>
+   <td> 18 days </td>
+   <td> M </td>
+   <td> Satellite </td>
+  </tr>
+  <tr>
+   <td> Landsat Thematic Mapper 5 </td>
+   <td> L5-TM </td>
+   <td> 30,60 </td>
+   <td> 1984 to 2013 </td>
+   <td> 16 days </td>
+   <td> M </td>
+   <td> Satellite </td>
+  </tr>
+  <tr>
+   <td> Landsat Enhanced Thematic Mapper 7 </td>
+   <td> L7-ETM </td>
+   <td> 15,30,60 </td>
+   <td> 1995 to 2003 </td>
+   <td> 16 days </td>
+   <td> P,M </td>
+   <td> Satellite </td>
+  </tr>
+  <tr>
+   <td> Moderate-resolution Imaging Spectroradiometer </td>
+   <td> MODIS </td>
+   <td> 250,500,1000 </td>
+   <td> 2000 to present </td>
+   <td> Daily </td>
+   <td> M </td>
+   <td> Satellite </td>
+  </tr>
+  <tr>
+   <td> Medium Resolution Imaging Spectrometer </td>
+   <td> ENVISAT-MERIS </td>
+   <td> 300 </td>
+   <td> 2002 to present </td>
+   <td> 3 days </td>
+   <td> M </td>
+   <td> Satellite </td>
+  </tr>
+  <tr>
+   <td> Landsat Data Continuity Mission (Landsat 8) </td>
+   <td> L8-OLI </td>
+   <td> 15,30,100 </td>
+   <td> 2013 to present </td>
+   <td> 16 days </td>
+   <td> P,M </td>
+   <td> Satellite </td>
+  </tr>
+  <tr>
+   <td> Copernicus Sentinel-1A </td>
+   <td> S-1A </td>
+   <td> 4,10,25,40 </td>
+   <td> 2015 to present </td>
+   <td> 12 (6) days </td>
+   <td> R </td>
+   <td> Satellite </td>
+  </tr>
+  <tr>
+   <td> Copernicus Sentinel-2A </td>
+   <td> S-2A </td>
+   <td> 10,20,60 </td>
+   <td> 2015 to present </td>
+   <td> 12 (6) days </td>
+   <td> M </td>
+   <td> Satellite </td>
+  </tr>
+</tbody>
+</table>
+
+
+--- .class1 #id5 bg:url(assets/img/background_white_scientist_tablet.png);background-size:cover;
+## Data type and format
+### Landsat Missions Timeline
+
+<div>
+<pw><a href="http://landsat.usgs.gov//about_mission_history.php"><img alt=landsat-timeline.jpg" src="assets/img/landsat-timeline.jpg" width=900px style="margin:10px 0px"> </a>
+<br><a href="http://landsat.usgs.gov//about_mission_history.php">http://landsat.usgs.gov//about_mission_history.php</a>.</pw>
+</div>
+
+--- &twocol .class1 #id5 bg:url(assets/img/background_white_scientist_tablet.png);background-size:cover;
+## Data type and format
+### Landsat product types
+
+*** =right
+
++ High latitudes (> 65º) may not be valid.
+
+<div>
+<pw><a href="http://landsat.usgs.gov//landsat_level_1_standard_data_products.php"><img alt=landsat-products-EE.png" src="assets/img/landsat-products-EE.png" width=400px style="margin:10px 0px"> </a>
+<br><a href="http://landsat.usgs.gov//landsat_level_1_standard_data_products.php">http://landsat.usgs.gov//landsat_level_1_standard_data_products.php</a>.</pw>
+</div>
+
+*** =left
+
+Generally *surface reflectance* products are prefered, however see [L8-SR user notes](http://landsat.usgs.gov/documents/Provisional_Landsat_8_SURFACE_REFLECTANCE_EE.pdf) and [Landsat Higher Level Science Data Products](http://landsat.usgs.gov/CDR_ECV.php):
+
++ not completely validated
++ not all scenes can be processed: Landsat 8 Pre-WRS-2 scenes (before April 11, 2013), scenes with a solar zenith angle greater than 76°.
++ Efficancy of L8SR correction will be likely reduced in: Hyper arid or snow covered regions, Low sun angle conditions, <b>Coastal regions where land area is small relative to adjacent water</b>, Areas with extensive cloud contamination.
 
 --- .class1 #id5 bg:url(assets/img/background_white_scientist_tablet.png);background-size:cover;
 ## Data format and type
-+ a table giving overview of formats available and product types (landsat, sentinel 1 and 2)
+### Landsat Standard L1 products
+
++ Standard Terrain Correction (Level 1T -precision and terrain correction) if possible.
++ Cubic Convolution (CC) resampling method.
++ 30-meter (TM, ETM+, OLI) and 60-meter (MSS) pixel size (reflective bands).
++ Universal Transverse Mercator (UTM) map projection (Polar Stereographic projection for scenes with a center latitude greater than or equal to -63.0 degrees).
++ World Geodetic System (WGS) 84 datum.
++ MAP (North-up) image orientation.
++ GeoTIFF per band, quality assement + metadata (`.MTL`)
+
+<div style="position: absolute; left: 700px; top:380px;">
+<img alt="landsat-standard-product.png" src="assets/img/landsat-standard-product.png" width=300px style="margin:10px 0px"> 
+</div>
 
 --- .class1 #id5 bg:url(assets/img/background_white_scientist_tablet.png);background-size:cover;
-## NASA EarthExplorer
-+ screenshots, iframe
+## Data format and type
+### Landsat Higher Level Science Data products
+
++ [surface reflectance](http://landsat.usgs.gov/CDR_LSR.php)
+    + includes basic classification (water, cloud) and per pixel quality mask
+    + metadata is .xml (schema: [http://espa.cr.usgs.gov/v1.2](http://espa.cr.usgs.gov/schema/espa_internal_metadata_v1_2.xsd))
++ [surface reflectance spectral indices](http://landsat.usgs.gov/documents/si_product_guide.pdf)
++ transport format as standard GeoTIFF or ENVI binary or HDF-EOS2, see [guide](http://landsat.usgs.gov/documents/espa_odi_userguide.pdf) 
+
+<div style="position: absolute; left: 400px; top:400px;">
+<img alt="L8-surface-reflectance-GeoTIFF.png" src="assets/img/L8-surface-reflectance-GeoTIFF.png" width=350px style="margin:10px 0px"> 
+</div>
+
 
 --- .class1 #id5 bg:url(assets/img/background_white_scientist_tablet.png);background-size:cover;
-## Copernicus SentinelHub
+## Data type and format
+### Sentinels Timeline
+
+<div style="position: absolute; left: 10px; top:170px;">
+<pw><a href="http://www.unoosa.org/pdf/pres/stsc2015/tech-53E.pdf"><img alt=landsat-timeline.jpg" src="assets/img/sentinel-launch-timeline-tech-53E.png" width=550px style="margin:10px 0px"> </a>
+<br><a href="http://www.unoosa.org/pdf/pres/stsc2015/tech-53E.pdf">ESA, http://www.unoosa.org/pdf/pres/stsc2015/tech-53E.pdf</a>.</pw>
+</div>
+
+<div style="position: absolute; left: 500px; top:170px;">
+<pw><a href="http://www.unoosa.org/pdf/pres/stsc2015/tech-53E.pdf"><img alt=landsat-timeline.jpg" src="assets/img/sentinel-longterm-timeline-tech-53E.png" width=550px style="margin:10px 0px"> </a>
+<br><a href="http://www.unoosa.org/pdf/pres/stsc2015/tech-53E.pdf">ESA, http://www.unoosa.org/pdf/pres/stsc2015/tech-53E.pdf</a>.</pw>
+</div>
 
 --- .class1 #id5 bg:url(assets/img/background_white_scientist_tablet.png);background-size:cover;
+## Data type and format
+### Sentinel 1 product types
+
+<div>
+<pw><a href="https://sentinel.esa.int/web/sentinel/missions/sentinel-1/data-products"><img alt=sentinel-scientific-data-hub.png" src="assets/img/Sentinel-1-core-fig-1.jpg" width=900px style="margin:10px 0px"> </a>
+<br><a href="https://sentinel.esa.int/web/sentinel/missions/sentinel-1/data-products">https://sentinel.esa.int/web/sentinel/missions/sentinel-1/data-products</a>.</pw>
+</div>
+
+--- &twocol .class1 #id5 bg:url(assets/img/background_white_scientist_tablet.png);background-size:cover;
+## Data type and format
+### Sentinel 1 product format
+
+*** =right
+The SENTINEL-SAFE format wraps a folder containing image data in a binary data format and product metadata in XML.
+
+*** =left
+<div>
+<pw><a href="https://earth.esa.int/web/sentinel/user-guides/sentinel-1-sar/data-formats/sar-formats"><img alt=Sentinel-1-SAR-formats.png" src="assets/img/Sentinel-1-SAR-formats.png" height=440px style="margin:10px 0px"> </a>
+<br><a href="https://earth.esa.int/web/sentinel/user-guides/sentinel-1-sar/data-formats/sar-formats">https://earth.esa.int/web/sentinel/user-guides/sentinel-1-sar/data-formats/sar-formats</a>.</pw>
+</div>
+
+--- .class1 #id5 bg:url(assets/img/background_white_scientist_tablet.png);background-size:cover;
+## Data type and format
+### Sentinel 2 product types
+
+<div>
+<pw><a href="https://sentinel.esa.int/web/sentinel/missions/sentinel-2/data-products"><img alt=sentinel-2-product-types.png src="assets/img/sentinel-2-product-types.png" width=500px style="margin:10px 0px"> </a>
+<br><a href="https://sentinel.esa.int/web/sentinel/missions/sentinel-2/data-products">https://sentinel.esa.int/web/sentinel/missions/sentinel-2/data-products</a>.</pw>
+</div>
+
+--- &twocol .class1 #id5 bg:url(assets/img/background_white_scientist_tablet.png);background-size:cover;
+## Data type and format
+### Sentinel 2 product format
+
+*** =right
+The SENTINEL-SAFE format wraps a folder containing image data in a binary data format and product metadata in XML.
+
+*** =left
+<div>
+<pw><a href="https://sentinel.esa.int/web/sentinel/user-guides/sentinel-2-msi/data-formats"><img alt=Sentinel-2-product-format.png" src="assets/img/Sentinel-2-product-format.png" height=420px style="margin:10px 0px"> </a>
+<br><a href="https://sentinel.esa.int/web/sentinel/user-guides/sentinel-2-msi/data-formats">https://sentinel.esa.int/web/sentinel/user-guides/sentinel-2-msi/data-formats</a>.</pw>
+</div>
+
+
+--- &twocol .class1 #id5 bg:url(assets/img/background_white_scientist_tablet.png);background-size:cover;
+## Earth Explorer 
+
+*** =right
+
++ surface reflectance products generated 'on demand'.
+
+<div>
+<pw><a href="http://earthexplorer.usgs.gov/"><img alt=sentinel-scientific-data-hub.png" src="assets/img/earth-explorer.png" width=450px style="margin:10px 0px"> </a>
+<br><a href="http://earthexplorer.usgs.gov/">http://earthexplorer.usgs.gov/</a>.</pw>
+</div>
+
+*** =left
+
++ official bulk dissemination system for the Landsat (and other) products.
++ requires registration (quick and easy); email address used to send download links! 
++ no restrictions on data use but requested to acknowledge source:
+    + USGS Products: 	'Data available from the U.S. Geological Survey.'
+    + NASA LP DAAC Products: 	'These data are distributed by the Land Processes Distributed Active Archive Center (LP DAAC), located at USGS/EROS, Sioux Falls, SD. http://lpdaac.usgs.gov'
+
+
+--- &twocol .class1 #id5 bg:url(assets/img/background_white_scientist_tablet.png);background-size:cover;
+## Sentinel Scientific Data Hub 
+
+*** =right
+<div>
+<pw><a href="https://scihub.esa.int"><img alt=sentinel-scientific-data-hub.png" src="assets/img/sentinel-scientific-data-hub.png" height=500px style="margin:10px 0px"> </a>
+<br><a href="https://scihub.esa.int">https://scihub.esa.int</a>.</pw>
+</div>
+
+*** =left
+
++ official bulk dissemination system for the Sentinels products
++ requires registration (quick and easy)
++ use of data implies acceptance of [Terms and Conditions of the use and distribution of Sentinel data](https://sentinel.esa.int/documents/247904/690755/Sentinel_Data_Terms_and_Conditions)
++ no limitations but must attribute 'Copernicus Sentinel data [Year]' or 'Contains modified Copernicus Sentinel data [Year]'
+
+--- .class1 .smaller #id5 bg:url(assets/img/background_white_scientist_tablet.png);background-size:cover;
 ## Other examples of how to get the data
 
---- .class1 #id5 bg:url(assets/img/background_white_scientist_tablet.png);background-size:cover;
+via commandline using curl (CHECK ME):
 
-curl -gu User:Password \"https://scihub.esa.int/dhus/search?q=producttype:GRD+AND+swathIdentifier:\"IW\"+AND+footprint:\"Intersects(POLYGON+((6.13+53.43,6.13+66.15,30.30+66.12,30.30+53.43,6.13+53.43)))\"&rows=100000&start=0\"
-S:\>curl -u User:Password -JO "https://scihub.esa.int/dhus/odata/v1/Products('b94d872a-ef4f-4117-8a6b-1a90466ae785')/$value"
+```
+# search by product type and region
+curl -gu User:Password\
+"https://scihub.esa.int/dhus/search?
+q=producttype:GRD+AND+swathIdentifier:"IW"\
++AND+footprint:"Intersects(POLYGON+((6.13+53.43,6.13+66.15,30.30+66.12,\
+30.30+53.43,6.13+53.43)))"&rows=100000&start=0\"
 
+# download a specific product
+S:\>curl -u User:Password -JO "https://scihub.esa.int/dhus/odata/v1/\
+Products('b94d872a-ef4f-4117-8a6b-1a90466ae785')/$value"
+```
+
+--- .class1 .smaller #id5 bg:url(assets/img/background_white_scientist_tablet.png);background-size:cover;
+## Other examples of how to get the data
+
+General:
+
++ [Google Earth Engine](https://earthengine.google.org) (GEE); Landsat archive, Sentinel-1 (available late 2015?), MODIS, MERRIS, ect. Sentinel-2 (planned).
+    + Google Storage also mirrors much of these archives. You can install their “[gsutil](https://cloud.google.com/storage/docs/gsutil_install)” (free) and then list this directory, which is indexed by sensor (for example, L8 is Landsat 8) and path/row: `gsutil ls gs://earthengine-public/landsat/`
+    + Note Sentinel-1 has undergone further pre-processing in GEE 
+
+Landsat:
+
++ [USGS Earth Resources Observation and Science (EROS) Center Science Processing Architecture (ESPA) On Demand Interface](http://espa.cr.usgs.gov/) for higher level products and processing options
++ [Landsat Look](http://landsatlook.usgs.gov/) for quick looks and standard data
++ [GloVis](http://glovis.usgs.gov) an alternative to EarthExplorer
++ [Python Landsat-Download](http://olivierhagolle.github.io/LANDSAT-Download/)
++ [Python Landsat-util](https://github.com/developmentseed/landsat-util)
 
 --- .segue #id6 bg:url(assets/img/background_scientist_screen.png);background-size:cover;background-color:#604c3f;
 ## How to extract information
@@ -227,18 +510,18 @@ S:\>curl -u User:Password -JO "https://scihub.esa.int/dhus/odata/v1/Products('b9
 --- .class1 #id5 bg:url(assets/img/background_white_scientist_screen.png);background-size:cover;
 ## Basic concepts
 
-## Georectifying
+Georectifying
 
-## Calibration
-    + at-instrument
-    + top-of-atmosphere
-    + surface
-        + optical is removing atmosphere
-        + sar is topographic corrections
+Calibration
+  + at-instrument
+  + top-of-atmosphere
+  + surface
+      + optical is removing atmosphere
+      + sar is topographic corrections
 
-## Morphological operations [filtering, changing resolution]
+Morphological operations [filtering, changing resolution]
 
-## Course classification [clouds, shadows, water]
+Course classification [clouds, shadows, water]
 
 --- .class1 #id5 bg:url(assets/img/background_white_scientist_screen.png);background-size:cover;
 
