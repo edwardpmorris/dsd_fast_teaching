@@ -17,13 +17,13 @@ body{
   line-height: 1.4;
   letter-spacing: -1px;
   color: #515151;
-  font-family: 'Fira Sans'
+  /*font-family: 'Fira Sans'*/
 }
 .title-slide hgroup h2 {
   font-size: 30px;
   color: darkgrey;
   font-weight: inherit;
-  font-family: 'Fira Sans'
+  /*font-family: 'Fira Sans'*/
 }
 
 /* LOGO */
@@ -73,8 +73,12 @@ pw {
     height   : 6400px;
 }
 
-
 table, table td, table th {
-  font-size: 14px;
-  padding: 1em 0.5em;
+  font-size: 15px;
+  padding: 0.2em 0.2em;
+  font-family: 'Open Sans','Helvetica', 'Crimson Text', 'Garamond',  'Palatino', sans-serif;
+}
+
+q {
+  font-size: 36px;
 }

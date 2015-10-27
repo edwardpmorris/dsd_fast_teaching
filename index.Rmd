@@ -23,19 +23,23 @@ mode        : selfcontained # {selfcontained, standalone, draft}
 knit        : slidify::knit2slides
 ---
 
---- .vcenter
-
-> Remote-sensing satellites are impartial and essential recorders of the fast-moving story of the Earth’s changing surface.</p>
+<style> bg:url(assets/img/background_white_astronaut.png);background-size:cover;</style>
 
 
-José Achache, Director of the GEO Secretariat.
+<q>Light enables us to see the world around us. The capacity of light to carry and convey information is perhaps its most important, and remarkable, characteristic.  </q>
+
+<div style="position: absolute; left: 50px; top:400px;">
+<img alt="IYL_Logo_ColorVert.jpg" src="assets/img/IYL_Logo_ColorVert.jpg" height=200px style="margin:10px 0px"></div>
+<div style="position: absolute; left: 200px; top:500px;">
+<pw>Ian Walmsley in 'Light : A very short introduction', Oxford University Press.</pw>
+</div>
+
 
 
 --- .class1 #id1 bg:black;
 
 
-
-<iframe src="//commons.wikimedia.org/wiki/File:NASA's_2011_fleet_of_Earth_remote_sensing_observatories.ogv?embedplayer=yes" width="854" height="480" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+<iframe src="https://www.youtube.com/embed/gF9UlTYR5d0?autoplay=1" width="854" height="480" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 
 <div style="position: absolute; left: 200px; top:625px; z-index:10; font-size:14px">
     <p>https://youtu.be/gF9UlTYR5d0</p>
@@ -99,7 +103,7 @@ Has both wave and particle properties at the same time (wave-particle duality).
 <pw><a href="https://commons.wikimedia.org/wiki/File:Atmospheric_electromagnetic_opacity.svg#/media/File:Atmospheric_electromagnetic_opacity.svg"><img src="https://upload.wikimedia.org/wikipedia/commons/3/34/Atmospheric_electromagnetic_opacity.svg" alt="Atmospheric electromagnetic opacity.svg" width=900></a><br>"<a href="https://commons.wikimedia.org/wiki/File:Atmospheric_electromagnetic_opacity.svg#/media/File:Atmospheric_electromagnetic_opacity.svg">Atmospheric electromagnetic opacity</a>" by NASA (original); SVG by <a href="//en.wikipedia.org/wiki/User:Mysid" class="extiw" title="w:User:Mysid">Mysid</a>. - Vectorized by <a href="//en.wikipedia.org/wiki/User:Mysid" class="extiw" title="w:User:Mysid">User:Mysid</a> in Inkscape, original NASA image from <a href="//commons.wikimedia.org/wiki/File:Atmospheric_electromagnetic_transmittance_or_opacity.jpg" title="File:Atmospheric electromagnetic transmittance or opacity.jpg">File:Atmospheric electromagnetic transmittance or opacity.jpg</a>.. Licensed under Public Domain via <a href="https://commons.wikimedia.org/wiki/">Commons</a>.</pw>
 
 --- &twocol .class1 #id3 bg:url(assets/img/background_white_astronaut.png);background-size:cover;
-## Passive visible (+ infrared)
+## Passive visible and infrared
 
 *** =left
 ![platform-sensor](assets/img/atmospheric_correction_OceanOpticsBook.png)
@@ -117,7 +121,7 @@ Has both wave and particle properties at the same time (wave-particle duality).
       + requires *atmospheric correction procedures*
 
 --- &twocol .class1 #id3 bg:url(assets/img/background_white_astronaut.png);background-size:cover;
-## Passive visible (+ infrared)
+## Passive visible and infrared
 
 *** =left
 Surfaces have specific <b>reflection</b> and <b>absorption</b> properties
@@ -133,7 +137,7 @@ Surfaces have specific <b>reflection</b> and <b>absorption</b> properties
 <pw><a href="https://commons.wikimedia.org/wiki/File:Simple_reflectance.svg#/media/File:Simple_reflectance.svg"><img alt="Simple reflectance.svg" src="https://upload.wikimedia.org/wikipedia/commons/3/3a/Simple_reflectance.svg" height="265" width="450" style="margin:30px 0px"> </a><br>"<a href="https://commons.wikimedia.org/wiki/File:Simple_reflectance.svg#/media/File:Simple_reflectance.svg">Simple reflectance</a>" by <a href="//commons.wikimedia.org/wiki/User:Phidauex" title="User:Phidauex">User:Phidauex</a> - <span class="int-own-work" lang="en">Own work</span>. Licensed under Public Domain via <a href="https://commons.wikimedia.org/wiki/">Commons</a>.</pw>
 
 --- .class1 .vcenter #id3 bg:url(assets/img/background_white_astronaut.png);background-size:cover;
-## Passive visible (+ infrared)
+## Passive visible and infrared
 <p style= "width: 900px;">
 Water strongly absorbs light giving it a distinctive <b>reflectance spectra</b> that can be summarised by spectral indices (ratios), e.g., the 'Normalised Difference Water Index' (NDWI, ADD REFERENCE).
 </p>
@@ -147,7 +151,7 @@ Water strongly absorbs light giving it a distinctive <b>reflectance spectra</b> 
 </div>
 
 --- .class1 .vcenter #id3 bg:url(assets/img/background_white_astronaut.png);background-size:cover;
-## Passive visible (+ infrared)
+## Passive visible and infrared
 <p style= "width: 900px;">
 All photosynthetic organisms contain chlorophyll giving them a distinctive <b>reflectance spectra</b> that can be summarised by spectral indices (ratios), e.g., the 'Normalised Difference Vegetation Index' (NDVI).
 </p>
@@ -162,7 +166,7 @@ All photosynthetic organisms contain chlorophyll giving them a distinctive <b>re
 </div>
 
 --- &twocol .class1 #id3 bg:url(assets/img/background_white_astronaut.png);background-size:cover;
-## Passive visible (+ infrared)
+## Passive visible and infrared
 <p style= "width: 900px;">
 Spectral ratios, such as NDWI and NDVI can be used to <b>quantify properties of foreshores</b>.
 </p>
@@ -180,7 +184,7 @@ Spectral ratios, such as NDWI and NDVI can be used to <b>quantify properties of 
 </div>
 
 --- .class1 #id3 bg:url(assets/img/background_white_astronaut.png);background-size:cover;
-## Passive visible (+ infrared)
+## Passive visible and infrared
 <p style= "width: 900px;">
 The different pigments of photosynthetic organisms result in different 'colours', potentially allowing <b>identification of foreshore vegetation types</b>.
 </p>
@@ -207,7 +211,7 @@ General:
 + [EO portal database of satellite missions](https://directory.eoportal.org/web/eoportal/satellite-missions)
 + [Landscape Toolbox Wiki](http://wiki.landscapetoolbox.org)
 
-Passive visible (+ infrared):
+Passive visible and infrared:
 
 + [Ocean optics web book](http://www.oceanopticsbook.info/)
 
@@ -224,6 +228,7 @@ Active radar (SAR):
 
 ```{r, echo=FALSE,results='asis'}
 tb <- read.csv2("assets/data/OA-earth-observation-data.csv")
+require(knitr)
 kable(x=tb, format="html", digits = getOption("digits"), row.names = NA, col.names = c("Name",	"Abbreviation",	"Resolution (m)",	"Availability",	"Return Interval",	"Type*"	,"Platform"), 
     align= NULL, caption = "Some earth observation satellites with open access data, based on <a href=http://wiki.landscapetoolbox.org/doku.php/remote_sensor_types:home>wiki.landscapetoolbox.org</a>. *C=Color, E=Elevation, H=Hyperspectral, M=Multispectral, P=Panchromatic, R=Syntheric Aperature Radar"
     #, format.args = list()
@@ -430,74 +435,246 @@ Landsat:
 --- .class1 #id5 bg:url(assets/img/background_white_scientist_screen.png);background-size:cover;
 ## Basic concepts
 
-Georectifying
+Georectification: Mapping the data to real world coordinates.
 
-Calibration
-  + at-instrument
-  + top-of-atmosphere
-  + surface
-      + optical is removing atmosphere
-      + sar is topographic corrections
+Calibration: Converting the data to real world units
+  
+  + at-instrument; instrument-specific digital numbers to units , i.e., radiance 
+  + top-of-atmosphere; accounting for platform to target geometry.
+  + surface; removing atmospheric affects and corrections for topography
 
-Morphological operations [filtering, changing resolution]
+Morphological operations: Filtering, changing resolution, ect.
 
-Course classification [clouds, shadows, water]
+Course classification: Assigning different classes (e.g., clouds, shadows, water) using segmentation or clustering.
+
+--- &twocol  .class1 #id5 bg:url(assets/img/background_white_scientist_screen.png);background-size:cover;
+## Open source image processing
+
+*** =left
+with GUI:
+
++ Sentinel Application Platform (SNAP); official software for processing sentinel data
++ Quantum GIS (QGIS); extensible GIS system with many plugins linking to image processing packages (BEAM plugin).
++ NEST
++ BEAM
++ Monteverdi2
++ GRASS
+
+*** =right
+
+Packages and frameworks:
+
++ Google Earth Engine (JavaScript and Python)
++ OTB
++ Python S1TBX
++ Python RSlib
++ OpenCV
++ R raster
+
+--- .class1 #id5 bg:url(assets/img/background_white_scientist_screen.png);background-size:cover;
+## Sentinel Application Platform (SNAP)
+### A common architecture for all Sentinel Toolboxes
+
++ open-source (Java) available at [GitHub]() or precompiled at [STEP]()
++ sucsessor of the mature [BEAM]() + [NEST]() software
++ [Python bindings]()
++ Sensor specific toolboxes (Sentinels, but also other sensors)
++ Developed by [Brockman Consult]() and [Array Systems Computing]() for ESA
 
 --- .class1 #id5 bg:url(assets/img/background_white_scientist_screen.png);background-size:cover;
 
-## Sentinel Application Platform (SNAP) | A common architecture for all Sentinel Toolboxes
+## Sentinel Application Platform (SNAP)
 
-+ open-source (Java)
-+ sucsessor of the mature BEAM + NEST software
-+ Python bindings
-+ Sensor specific toolboxes
-+ Acknowledgments
-
---- .class1 #id5 bg:url(assets/img/background_white_scientist_screen.png);background-size:cover;
-
-## Sentinel Application Platform (SNAP) | A common architecture for all Sentinel Toolboxes
-
-+ iframe showing page
+<div>
+<pw><a href="http://step.esa.int/main/toolboxes/snap/"><img alt=SNAP.png" src="assets/img/SNAP.png" width=850px style="margin:10px 0px"> </a>
+<br><a href="http://step.esa.int/main/toolboxes/snap/">http://step.esa.int/main/toolboxes/snap/</a>.</pw>
+</div>
 
 --- .class1 #id5 bg:url(assets/img/background_white_scientist_screen.png);background-size:cover
 ## Getting help 
 
-+ In built help
-+ Toolbox tutorials
-+ The SNAP forum; a shared user experience
-+ SNAP development; how to contribute
++ Detailed in built help
++ [Toolbox tutorials](), also consider NEST and BEAM tutorials.
++ [SNAP forum](); a shared user experience
++ [SNAP development](); how to contribute
 
 --- .class1 #id5 bg:url(assets/img/background_white_scientist_screen.png);background-size:cover;
-## The power of the Graph Builder and Graph Processing Tool
-+ building workflows [graphs]
-+ applying to single image
-+ batch processing
-+ running from the commandline
+## The power of the Graph Builder and Graph Processing Tool (GPT)
+
++ graphical building of workflows [graphs]
++ save workflows in XML and share
++ apply to single image or batch process many images
++ run from within the GUI or the commandline (GPT)
 + ??access via Python??
+
+--- .thankyou #id5 bg:url(assets/img/background_white_scientist_screen.png);background-size:cover;
+## Acknowledgents
+
++ FAST project
++ FAST WP3, 4 and 5 teams for support and contributions.
++ Landsat data courtesy of [USGS]().
++ This presentation includes Copernicus Sentinel data 2015.
++ Videos from [NASA]() and [ESA]() [YouTube]() channels.
++ Slide deck made using [slidify]()
+
 
 --- .segue #id5 bg:url(assets/img/background_endusers.png);background-size:cover;background-color:#97bf0d;
 ## Now your turn...
 
 --- .class1 #id5 bg:url(assets/img/background_white_endusers.png);background-size:cover;
 ## Using Sentinel 1 toolbox (S1TBX) to get information about coastal systems [45 min]
+### Introduction to the Sentinel 1 toolbox (S1TBX)
 
-+ stick to original zip product
-+ further processing using dimap
-+ 1 image (Westerschelde)
+This workshop will cover the basics of working with S1TBX to process Sentinel-1 data:
 
-L1:
-+ open image
-+ masking
-+ calibration
-+ speckle filter
-+ elipsoid correction
-+ convert to decibels
-+ look at a profile
++ open S1A-IW-GRDH product
++ basic pre-processing
 + export data
 
-L2:
-+ use graph to do 3 different types of speckle filter
-+ open up XML
++ examine file structure
++ spatially subset the product
++ apply at-sensor and top-of-atmosphere calibration (convert to sigma0).
++ apply a speckle filter.
++ apply elipsoid correction (georeference).
++ convert to decibels (log-linear scale?).
++ examine the image.
++ export data.
 
-L3:
-+ threshold or classify
+--- .class1 #id5 bg:url(assets/img/background_white_endusers.png);background-size:cover;
+## Using the Graph Builder in S1TBX
+
++ use the graph builder to save your workflow.
++ take a look at the graph XML format.
++ edit the XML so as apply different types of speckle filter and multilooking, compare results.
++ set up thresholding of the image using band-math and extract 'water'.
++ run a basic classification and compare to the threshold result.
+
+--- .class1 #id5 bg:url(assets/img/background_white_endusers.png);background-size:cover;
+## Open S1A-IW-GRDH product
+
+`File` > `Open Product` OR `Import Raster Data` > `SAR data` > `SENTINEL-1`
+
+<div>
+<img alt=S1-open.png src="assets/img/S1-open.png" width=850px style="margin:10px 0px">
+</div>
+
+--- .class1 #id5 bg:url(assets/img/background_white_endusers.png);background-size:cover;
+## Examine the S1A-IW-GRDH product
+
+Products View expand structure
+
+Open window to display raw data (RIGHT CLICK BAND > `Open Image Window`)
+
+<div>
+<img alt=S1-open-image.png src="assets/img/S1-open-image.png" width=850px style="margin:10px 0px">
+</div>
+
+--- .class1 #id5 bg:url(assets/img/background_white_endusers.png);background-size:cover;
+## Subset S1A-IW-GRDH product
+
+Zoom in on area of interest; note image is mirrored
+
+`Raster` > `Subset` OR RIGHT CLICK ON IMAGE > `Spatial Subset From View`
+
+<div>
+<img alt=S1-subset.png src="assets/img/S1-subset.png" width=850px style="margin:10px 0px">
+</div>
+
+<div  style="position: absolute; left: 400px; top:400px;">
+<img alt=S1-spatial-subset.png src="assets/img/S1-spatial-subset.png" width=400px style="margin:10px 0px">
+</div>
+
+--- .class1 #id5 bg:url(assets/img/background_white_endusers.png);background-size:cover;
+## Apply at-sensor and top-of-atmosphere calibration
+
+`SAR Processing` > `Radiometric` > `Calibrate`
+
+<div>
+<img alt=S1-calibrate.png src="assets/img/S1-calibrate.png" width=850px style="margin:10px 0px">
+</div>
+
+<div  style="position: absolute; left: 450px; top:350px;">
+<img alt=S1-calibrate-options.png src="assets/img/S1-calibrate-options.png" width=400px style="margin:10px 0px">
+</div>
+
+--- .class1 #id5 bg:url(assets/img/background_white_endusers.png);background-size:cover;
+## Apply a 'speckle' filter
+
+`SAR Processing` > `Speckle Filtering`
+
+<div>
+<img alt=S1-speckle-filter.png src="assets/img/S1-speckle-filter.png" width=850px style="margin:10px 0px">
+</div>
+
+<div  style="position: absolute; left: 450px; top:350px;">
+<img alt=S1-speckle-filter-options.png src="assets/img/S1-speckle-filter-options.png" width=400px style="margin:10px 0px">
+</div>
+
+--- .class1 #id5 bg:url(assets/img/background_white_endusers.png);background-size:cover;
+## Apply a geometric correction
+
+`SAR Processing` > `Geometric` > `Elipsoid Correction`
+
+<div>
+<img alt=S1-elipsoid.png src="assets/img/S1-elipsoid.png" width=850px style="margin:10px 0px">
+</div>
+
+<div  style="position: absolute; left: 600px; top:320px;">
+<img alt=S1-speckle-options.png src="assets/img/S1-elipsoid-options.png" width=400px style="margin:10px 0px">
+</div>
+
+
+--- .class1 #id5 bg:url(assets/img/background_white_endusers.png);background-size:cover;
+## Convert to decibels
+
+`Utilities` > `Dataset Conversion` > `Linear to/from dB`
+
+`Raster` > `Dataset Conversion` > `Linear to/from dB`
+
+<div>
+<img alt=S1-S1-linearTodB.png src="assets/img/S1-linearTodB.png" width=850px style="margin:10px 0px">
+</div>
+
+--- .class1 #id5 bg:url(assets/img/background_white_endusers.png);background-size:cover;
+## Examine the pre-processed product
+
+Look at a profile from water to land:
+
+`Analysis` > `Profile Plot`
+
+Add a vector layer:
+
+`Vector` > `Import` OR Line Drawing Tool
+
+<div style="position: absolute; left: 600px; top:120px;">
+<img alt=S1-profile.png src="assets/img/S1-profile.png" width=400px style="margin:10px 0px">
+</div>
+
+Look at a histogram for the scene:
+
+`Analysis` > `Histogram`
+
+<div style="position: absolute; left: 100px; top:450px;">
+<img alt=S1-histogram.png src="assets/img/S1-histogram.png" width=400px style="margin:10px 0px">
+</div>
+
+--- .class1 #id5 bg:url(assets/img/background_white_endusers.png);background-size:cover;
+## Export the pre-processed product
+
+Choose your prefered export format
+
+`File` > `Export Raster Data` > `NetCDF4-CF`
+
+<div >
+<img alt=S1-export.png src="assets/img/S1-export.png" width=900px style="margin:10px 0px">
+</div>
+
+--- .class1 #id5 bg:url(assets/img/background_white_endusers.png);background-size:cover;
+## Using the Graph Builder in S1TBX
+
+`Tools` > `Graph Builder`
+
+<div >
+<img alt=S1-graph-builder.png src="assets/img/S1-graph-builder.png" width=900px style="margin:10px 0px">
+</div>
+

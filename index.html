@@ -54,24 +54,22 @@
     <!-- SLIDES -->
     <slide class="" id="slide-1" style="background:;">
   <article data-timings="">
-    
-  </article>
-  <!-- Presenter Notes -->
-</slide>
-<slide class="vcenter" id="slide-2" style="background:;">
-  <article data-timings="">
-    <blockquote>
-<p>Remote-sensing satellites are impartial and essential recorders of the fast-moving story of the Earth’s changing surface.</p></p>
-</blockquote>
+    <style> bg:url(assets/img/background_white_astronaut.png);background-size:cover;</style>
 
-<p>José Achache, Director of the GEO Secretariat.</p>
+<p><q>Light enables us to see the world around us. The capacity of light to carry and convey information is perhaps its most important, and remarkable, characteristic.  </q></p>
+
+<div style="position: absolute; left: 50px; top:400px;">
+<img alt="IYL_Logo_ColorVert.jpg" src="assets/img/IYL_Logo_ColorVert.jpg" height=200px style="margin:10px 0px"></div>
+<div style="position: absolute; left: 200px; top:500px;">
+<pw>Ian Walmsley in 'Light : A very short introduction', Oxford University Press.</pw>
+</div>
 
   </article>
   <!-- Presenter Notes -->
 </slide>
 <slide class="class1" id="id1" style="background:black;;">
   <article data-timings="">
-    <iframe src="//commons.wikimedia.org/wiki/File:NASA's_2011_fleet_of_Earth_remote_sensing_observatories.ogv?embedplayer=yes" width="854" height="480" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+    <iframe src="https://www.youtube.com/embed/gF9UlTYR5d0?autoplay=1" width="854" height="480" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 
 <div style="position: absolute; left: 200px; top:625px; z-index:10; font-size:14px">
     <p>https://youtu.be/gF9UlTYR5d0</p>
@@ -182,7 +180,7 @@
 </slide>
 <slide class="class1" id="id3" style="background:url(assets/img/background_white_astronaut.png);background-size:cover;;">
   <hgroup>
-    <h2>Passive visible (+ infrared)</h2>
+    <h2>Passive visible and infrared</h2>
   </hgroup>
   <article data-timings="">
     
@@ -213,7 +211,7 @@
 </slide>
 <slide class="class1" id="id3" style="background:url(assets/img/background_white_astronaut.png);background-size:cover;;">
   <hgroup>
-    <h2>Passive visible (+ infrared)</h2>
+    <h2>Passive visible and infrared</h2>
   </hgroup>
   <article data-timings="">
     
@@ -239,7 +237,7 @@
 </slide>
 <slide class="class1 vcenter" id="id3" style="background:url(assets/img/background_white_astronaut.png);background-size:cover;;">
   <hgroup>
-    <h2>Passive visible (+ infrared)</h2>
+    <h2>Passive visible and infrared</h2>
   </hgroup>
   <article data-timings="">
     <p style= "width: 900px;">
@@ -259,7 +257,7 @@ Water strongly absorbs light giving it a distinctive <b>reflectance spectra</b> 
 </slide>
 <slide class="class1 vcenter" id="id3" style="background:url(assets/img/background_white_astronaut.png);background-size:cover;;">
   <hgroup>
-    <h2>Passive visible (+ infrared)</h2>
+    <h2>Passive visible and infrared</h2>
   </hgroup>
   <article data-timings="">
     <p style= "width: 900px;">
@@ -280,7 +278,7 @@ All photosynthetic organisms contain chlorophyll giving them a distinctive <b>re
 </slide>
 <slide class="class1" id="id3" style="background:url(assets/img/background_white_astronaut.png);background-size:cover;;">
   <hgroup>
-    <h2>Passive visible (+ infrared)</h2>
+    <h2>Passive visible and infrared</h2>
   </hgroup>
   <article data-timings="">
     <p style= "width: 900px;">
@@ -306,7 +304,7 @@ Spectral ratios, such as NDWI and NDVI can be used to <b>quantify properties of 
 </slide>
 <slide class="class1" id="id3" style="background:url(assets/img/background_white_astronaut.png);background-size:cover;;">
   <hgroup>
-    <h2>Passive visible (+ infrared)</h2>
+    <h2>Passive visible and infrared</h2>
   </hgroup>
   <article data-timings="">
     <p style= "width: 900px;">
@@ -356,7 +354,7 @@ The different pigments of photosynthetic organisms result in different 'colours'
 <li><a href="http://wiki.landscapetoolbox.org">Landscape Toolbox Wiki</a></li>
 </ul>
 
-<p>Passive visible (+ infrared):</p>
+<p>Passive visible and infrared:</p>
 
 <ul>
 <li><a href="http://www.oceanopticsbook.info/">Ocean optics web book</a></li>
@@ -400,15 +398,6 @@ The different pigments of photosynthetic organisms result in different 'colours'
   </tr>
  </thead>
 <tbody>
-  <tr>
-   <td> Landsat Multi-spectral Scanner </td>
-   <td> L4-MSS </td>
-   <td> 80 </td>
-   <td> 1972 to 1997 </td>
-   <td> 18 days </td>
-   <td> M </td>
-   <td> Satellite </td>
-  </tr>
   <tr>
    <td> Landsat Thematic Mapper 5 </td>
    <td> L5-TM </td>
@@ -788,39 +777,71 @@ Products(&#39;b94d872a-ef4f-4117-8a6b-1a90466ae785&#39;)/$value&quot;
     <h2>Basic concepts</h2>
   </hgroup>
   <article data-timings="">
-    <p>Georectifying</p>
+    <p>Georectification: Mapping the data to real world coordinates.</p>
 
-<p>Calibration</p>
-
-<ul>
-<li>at-instrument</li>
-<li>top-of-atmosphere</li>
-<li>surface
+<p>Calibration: Converting the data to real world units</p>
 
 <ul>
-<li>optical is removing atmosphere</li>
-<li>sar is topographic corrections</li>
-</ul></li>
+<li>at-instrument; instrument-specific digital numbers to units , i.e., radiance </li>
+<li>top-of-atmosphere; accounting for platform to target geometry.</li>
+<li>surface; removing atmospheric affects and corrections for topography</li>
 </ul>
 
-<p>Morphological operations [filtering, changing resolution]</p>
+<p>Morphological operations: Filtering, changing resolution, ect.</p>
 
-<p>Course classification [clouds, shadows, water]</p>
+<p>Course classification: Assigning different classes (e.g., clouds, shadows, water) using segmentation or clustering.</p>
 
   </article>
   <!-- Presenter Notes -->
 </slide>
 <slide class="class1" id="id5" style="background:url(assets/img/background_white_scientist_screen.png);background-size:cover;;">
   <hgroup>
-    <h2>Sentinel Application Platform (SNAP) | A common architecture for all Sentinel Toolboxes</h2>
+    <h2>Open source image processing</h2>
   </hgroup>
   <article data-timings="">
-    <ul>
-<li>open-source (Java)</li>
-<li>sucsessor of the mature BEAM + NEST software</li>
-<li>Python bindings</li>
-<li>Sensor specific toolboxes</li>
-<li>Acknowledgments</li>
+    
+<div style='float:left;width:48%;' class='centered'>
+  <p>with GUI:</p>
+
+<ul>
+<li>Sentinel Application Platform (SNAP); official software for processing sentinel data</li>
+<li>Quantum GIS (QGIS); extensible GIS system with many plugins linking to image processing packages (BEAM plugin).</li>
+<li>NEST</li>
+<li>BEAM</li>
+<li>Monteverdi2</li>
+<li>GRASS</li>
+</ul>
+
+</div>
+<div style='float:right;width:48%;'>
+  <p>Packages and frameworks:</p>
+
+<ul>
+<li>Google Earth Engine (JavaScript and Python)</li>
+<li>OTB</li>
+<li>Python S1TBX</li>
+<li>Python RSlib</li>
+<li>OpenCV</li>
+<li>R raster</li>
+</ul>
+
+</div>
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+<slide class="class1" id="id5" style="background:url(assets/img/background_white_scientist_screen.png);background-size:cover;;">
+  <hgroup>
+    <h2>Sentinel Application Platform (SNAP)</h2>
+  </hgroup>
+  <article data-timings="">
+    <h3>A common architecture for all Sentinel Toolboxes</h3>
+
+<ul>
+<li>open-source (Java) available at <a href="">GitHub</a> or precompiled at <a href="">STEP</a></li>
+<li>sucsessor of the mature <a href="">BEAM</a> + <a href="">NEST</a> software</li>
+<li><a href="">Python bindings</a></li>
+<li>Sensor specific toolboxes (Sentinels, but also other sensors)</li>
+<li>Developed by <a href="">Brockman Consult</a> and <a href="">Array Systems Computing</a> for ESA</li>
 </ul>
 
   </article>
@@ -828,12 +849,13 @@ Products(&#39;b94d872a-ef4f-4117-8a6b-1a90466ae785&#39;)/$value&quot;
 </slide>
 <slide class="class1" id="id5" style="background:url(assets/img/background_white_scientist_screen.png);background-size:cover;;">
   <hgroup>
-    <h2>Sentinel Application Platform (SNAP) | A common architecture for all Sentinel Toolboxes</h2>
+    <h2>Sentinel Application Platform (SNAP)</h2>
   </hgroup>
   <article data-timings="">
-    <ul>
-<li>iframe showing page</li>
-</ul>
+    <div>
+<pw><a href="http://step.esa.int/main/toolboxes/snap/"><img alt=SNAP.png" src="assets/img/SNAP.png" width=850px style="margin:10px 0px"> </a>
+<br><a href="http://step.esa.int/main/toolboxes/snap/">http://step.esa.int/main/toolboxes/snap/</a>.</pw>
+</div>
 
   </article>
   <!-- Presenter Notes -->
@@ -844,10 +866,10 @@ Products(&#39;b94d872a-ef4f-4117-8a6b-1a90466ae785&#39;)/$value&quot;
   </hgroup>
   <article data-timings="">
     <ul>
-<li>In built help</li>
-<li>Toolbox tutorials</li>
-<li>The SNAP forum; a shared user experience</li>
-<li>SNAP development; how to contribute</li>
+<li>Detailed in built help</li>
+<li><a href="">Toolbox tutorials</a>, also consider NEST and BEAM tutorials.</li>
+<li><a href="">SNAP forum</a>; a shared user experience</li>
+<li><a href="">SNAP development</a>; how to contribute</li>
 </ul>
 
   </article>
@@ -855,15 +877,32 @@ Products(&#39;b94d872a-ef4f-4117-8a6b-1a90466ae785&#39;)/$value&quot;
 </slide>
 <slide class="class1" id="id5" style="background:url(assets/img/background_white_scientist_screen.png);background-size:cover;;">
   <hgroup>
-    <h2>The power of the Graph Builder and Graph Processing Tool</h2>
+    <h2>The power of the Graph Builder and Graph Processing Tool (GPT)</h2>
   </hgroup>
   <article data-timings="">
     <ul>
-<li>building workflows [graphs]</li>
-<li>applying to single image</li>
-<li>batch processing</li>
-<li>running from the commandline</li>
+<li>graphical building of workflows [graphs]</li>
+<li>save workflows in XML and share</li>
+<li>apply to single image or batch process many images</li>
+<li>run from within the GUI or the commandline (GPT)</li>
 <li>??access via Python??</li>
+</ul>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+<slide class="thankyou" id="id5" style="background:url(assets/img/background_white_scientist_screen.png);background-size:cover;;">
+  <hgroup>
+    <h2>Acknowledgents</h2>
+  </hgroup>
+  <article data-timings="">
+    <ul>
+<li>FAST project</li>
+<li>FAST WP3, 4 and 5 teams for support and contributions.</li>
+<li>Landsat data courtesy of <a href="">USGS</a>.</li>
+<li>This presentation includes Copernicus Sentinel data 2015.</li>
+<li>Videos from <a href="">NASA</a> and <a href="">ESA</a> <a href="">YouTube</a> channels.</li>
+<li>Slide deck made using <a href="">slidify</a></li>
 </ul>
 
   </article>
@@ -880,39 +919,25 @@ Products(&#39;b94d872a-ef4f-4117-8a6b-1a90466ae785&#39;)/$value&quot;
 </slide>
 <slide class="class1" id="id5" style="background:url(assets/img/background_white_endusers.png);background-size:cover;;">
   <hgroup>
-    <h2>Using Sentinel 1 toolbox (S1TBX) to get information about coastal systems [15 min, examples to be defined!]</h2>
+    <h2>Using Sentinel 1 toolbox (S1TBX) to get information about coastal systems [45 min]</h2>
   </hgroup>
   <article data-timings="">
-    <ul>
-<li>stick to original zip product</li>
-<li>further processing using dimap</li>
-<li>1 image (chosen region depends on if we use S2, or Westerschelde)</li>
-</ul>
+    <h3>Introduction to the Sentinel 1 toolbox (S1TBX)</h3>
 
-<p>L1:</p>
+<p>This workshop will cover the basics of working with S1TBX to process Sentinel-1 data:</p>
 
 <ul>
-<li>open image</li>
-<li>masking</li>
-<li>calibration</li>
-<li>speckle filter</li>
-<li>elipsoid correction</li>
-<li>convert to decibels</li>
-<li>look at a profile</li>
-<li>export data</li>
-</ul>
-
-<p>L2:</p>
-
-<ul>
-<li>use graph to do 3 different types of speckle filter</li>
-<li>open up XML</li>
-</ul>
-
-<p>L3:</p>
-
-<ul>
-<li>threshold or classify</li>
+<li>open S1A-IW-GRDH product</li>
+<li>basic pre-processing</li>
+<li><p>export data</p></li>
+<li><p>examine file structure</p></li>
+<li><p>spatially subset the product</p></li>
+<li><p>apply at-sensor and top-of-atmosphere calibration (convert to sigma0).</p></li>
+<li><p>apply a speckle filter.</p></li>
+<li><p>apply elipsoid correction (georeference).</p></li>
+<li><p>convert to decibels (log-linear scale?).</p></li>
+<li><p>examine the image.</p></li>
+<li><p>export data.</p></li>
 </ul>
 
   </article>
@@ -920,33 +945,15 @@ Products(&#39;b94d872a-ef4f-4117-8a6b-1a90466ae785&#39;)/$value&quot;
 </slide>
 <slide class="class1" id="id5" style="background:url(assets/img/background_white_endusers.png);background-size:cover;;">
   <hgroup>
-    <h2>Using Sentinel 2 toolbox (S2TBX) to get information about coastal systems [15 min, examples to be defined!]</h2>
+    <h2>Using the Graph Builder in S1TBX</h2>
   </hgroup>
   <article data-timings="">
     <ul>
-<li>check if image in italy is useful, check possibility of using landsat</li>
-</ul>
-
-<p>L1:</p>
-
-<ul>
-<li>open image</li>
-<li>masking/clipping</li>
-<li>calibration - at-sensor, TOA, and surface??</li>
-<li>look at a profile and spectra </li>
-<li>export data</li>
-</ul>
-
-<p>L2:</p>
-
-<ul>
-<li>calculate band ratios using calculator (NDVI, MNDWI)</li>
-</ul>
-
-<p>L3:</p>
-
-<ul>
-<li>threshold, pca, classify</li>
+<li>use the graph builder to save your workflow.</li>
+<li>take a look at the graph XML format.</li>
+<li>edit the XML so as apply different types of speckle filter and multilooking, compare results.</li>
+<li>set up thresholding of the image using band-math and extract &#39;water&#39;.</li>
+<li>run a basic classification and compare to the threshold result.</li>
 </ul>
 
   </article>
@@ -954,24 +961,178 @@ Products(&#39;b94d872a-ef4f-4117-8a6b-1a90466ae785&#39;)/$value&quot;
 </slide>
 <slide class="class1" id="id5" style="background:url(assets/img/background_white_endusers.png);background-size:cover;;">
   <hgroup>
-    <h2>Together is better! Synergy products [15 min, examples to be defined!]</h2>
+    <h2>Open S1A-IW-GRDH product</h2>
   </hgroup>
   <article data-timings="">
-    <p>L1:</p>
+    <p><code>File</code> &gt; <code>Open Product</code> OR <code>Import Raster Data</code> &gt; <code>SAR data</code> &gt; <code>SENTINEL-1</code></p>
 
-<ul>
-<li>open 2 images (provide images as backup)</li>
-<li>resample S1 to 10 m</li>
-<li>combine virtual raster</li>
-<li>look at a profile</li>
-<li>export data</li>
-</ul>
+<div>
+<img alt=S1-open.png src="assets/img/S1-open.png" width=850px style="margin:10px 0px">
+</div>
 
-<p>L3:</p>
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+<slide class="class1" id="id5" style="background:url(assets/img/background_white_endusers.png);background-size:cover;;">
+  <hgroup>
+    <h2>Examine the S1A-IW-GRDH product</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>Products View expand structure</p>
 
-<ul>
-<li>pca, classify</li>
-</ul>
+<p>Open window to display raw data (RIGHT CLICK BAND &gt; <code>Open Image Window</code>)</p>
+
+<div>
+<img alt=S1-open-image.png src="assets/img/S1-open-image.png" width=850px style="margin:10px 0px">
+</div>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+<slide class="class1" id="id5" style="background:url(assets/img/background_white_endusers.png);background-size:cover;;">
+  <hgroup>
+    <h2>Subset S1A-IW-GRDH product</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>Zoom in on area of interest; note image is mirrored</p>
+
+<p><code>Raster</code> &gt; <code>Subset</code> OR RIGHT CLICK ON IMAGE &gt; <code>Spatial Subset From View</code></p>
+
+<div>
+<img alt=S1-subset.png src="assets/img/S1-subset.png" width=850px style="margin:10px 0px">
+</div>
+
+<div  style="position: absolute; left: 400px; top:400px;">
+<img alt=S1-spatial-subset.png src="assets/img/S1-spatial-subset.png" width=400px style="margin:10px 0px">
+</div>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+<slide class="class1" id="id5" style="background:url(assets/img/background_white_endusers.png);background-size:cover;;">
+  <hgroup>
+    <h2>Apply at-sensor and top-of-atmosphere calibration</h2>
+  </hgroup>
+  <article data-timings="">
+    <p><code>SAR Processing</code> &gt; <code>Radiometric</code> &gt; <code>Calibrate</code></p>
+
+<div>
+<img alt=S1-calibrate.png src="assets/img/S1-calibrate.png" width=850px style="margin:10px 0px">
+</div>
+
+<div  style="position: absolute; left: 450px; top:350px;">
+<img alt=S1-calibrate-options.png src="assets/img/S1-calibrate-options.png" width=400px style="margin:10px 0px">
+</div>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+<slide class="class1" id="id5" style="background:url(assets/img/background_white_endusers.png);background-size:cover;;">
+  <hgroup>
+    <h2>Apply a &#39;speckle&#39; filter</h2>
+  </hgroup>
+  <article data-timings="">
+    <p><code>SAR Processing</code> &gt; <code>Speckle Filtering</code></p>
+
+<div>
+<img alt=S1-speckle-filter.png src="assets/img/S1-speckle-filter.png" width=850px style="margin:10px 0px">
+</div>
+
+<div  style="position: absolute; left: 450px; top:350px;">
+<img alt=S1-speckle-filter-options.png src="assets/img/S1-speckle-filter-options.png" width=400px style="margin:10px 0px">
+</div>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+<slide class="class1" id="id5" style="background:url(assets/img/background_white_endusers.png);background-size:cover;;">
+  <hgroup>
+    <h2>Apply a geometric correction</h2>
+  </hgroup>
+  <article data-timings="">
+    <p><code>SAR Processing</code> &gt; <code>Geometric</code> &gt; <code>Elipsoid Correction</code></p>
+
+<div>
+<img alt=S1-elipsoid.png src="assets/img/S1-elipsoid.png" width=850px style="margin:10px 0px">
+</div>
+
+<div  style="position: absolute; left: 600px; top:320px;">
+<img alt=S1-speckle-options.png src="assets/img/S1-elipsoid-options.png" width=400px style="margin:10px 0px">
+</div>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+<slide class="class1" id="id5" style="background:url(assets/img/background_white_endusers.png);background-size:cover;;">
+  <hgroup>
+    <h2>Convert to decibels</h2>
+  </hgroup>
+  <article data-timings="">
+    <p><code>Utilities</code> &gt; <code>Dataset Conversion</code> &gt; <code>Linear to/from dB</code></p>
+
+<p><code>Raster</code> &gt; <code>Dataset Conversion</code> &gt; <code>Linear to/from dB</code></p>
+
+<div>
+<img alt=S1-S1-linearTodB.png src="assets/img/S1-linearTodB.png" width=850px style="margin:10px 0px">
+</div>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+<slide class="class1" id="id5" style="background:url(assets/img/background_white_endusers.png);background-size:cover;;">
+  <hgroup>
+    <h2>Examine the pre-processed product</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>Look at a profile from water to land:</p>
+
+<p><code>Analysis</code> &gt; <code>Profile Plot</code></p>
+
+<p>Add a vector layer:</p>
+
+<p><code>Vector</code> &gt; <code>Import</code> OR Line Drawing Tool</p>
+
+<div style="position: absolute; left: 600px; top:120px;">
+<img alt=S1-profile.png src="assets/img/S1-profile.png" width=400px style="margin:10px 0px">
+</div>
+
+<p>Look at a histogram for the scene:</p>
+
+<p><code>Analysis</code> &gt; <code>Histogram</code></p>
+
+<div style="position: absolute; left: 100px; top:450px;">
+<img alt=S1-histogram.png src="assets/img/S1-histogram.png" width=400px style="margin:10px 0px">
+</div>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+<slide class="class1" id="id5" style="background:url(assets/img/background_white_endusers.png);background-size:cover;;">
+  <hgroup>
+    <h2>Export the pre-processed product</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>Choose your prefered export format</p>
+
+<p><code>File</code> &gt; <code>Export Raster Data</code> &gt; <code>NetCDF4-CF</code></p>
+
+<div >
+<img alt=S1-export.png src="assets/img/S1-export.png" width=900px style="margin:10px 0px">
+</div>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+<slide class="class1" id="id5" style="background:url(assets/img/background_white_endusers.png);background-size:cover;;">
+  <hgroup>
+    <h2>Using the Graph Builder in S1TBX</h2>
+  </hgroup>
+  <article data-timings="">
+    <p><code>Tools</code> &gt; <code>Graph Builder</code></p>
+
+<div >
+<img alt=S1-graph-builder.png src="assets/img/S1-graph-builder.png" width=900px style="margin:10px 0px">
+</div>
 
   </article>
   <!-- Presenter Notes -->
@@ -1000,19 +1161,19 @@ Products(&#39;b94d872a-ef4f-4117-8a6b-1a90466ae785&#39;)/$value&quot;
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=4 title='NA'>
+        data-slide=4 title='Remote sensing 101'>
          4
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=5 title='Remote sensing 101'>
+        data-slide=5 title='Platform, sensor and resolution'>
          5
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=6 title='Platform, sensor and resolution'>
+        data-slide=6 title='Electromagnetic radiation'>
          6
       </a>
     </li>
@@ -1030,73 +1191,73 @@ Products(&#39;b94d872a-ef4f-4117-8a6b-1a90466ae785&#39;)/$value&quot;
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=9 title='Electromagnetic radiation'>
+        data-slide=9 title='Passive visible and infrared'>
          9
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=10 title='Passive visible (+ infrared)'>
+        data-slide=10 title='Passive visible and infrared'>
          10
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=11 title='Passive visible (+ infrared)'>
+        data-slide=11 title='Passive visible and infrared'>
          11
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=12 title='Passive visible (+ infrared)'>
+        data-slide=12 title='Passive visible and infrared'>
          12
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=13 title='Passive visible (+ infrared)'>
+        data-slide=13 title='Passive visible and infrared'>
          13
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=14 title='Passive visible (+ infrared)'>
+        data-slide=14 title='Passive visible and infrared'>
          14
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=15 title='Passive visible (+ infrared)'>
+        data-slide=15 title='Active radio'>
          15
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=16 title='Active radio'>
+        data-slide=16 title='Applications'>
          16
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=17 title='Applications'>
+        data-slide=17 title='Further resources'>
          17
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=18 title='Further resources'>
+        data-slide=18 title='How to access remote sensing data'>
          18
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=19 title='How to access remote sensing data'>
+        data-slide=19 title='Data availability'>
          19
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=20 title='Data availability'>
+        data-slide=20 title='Data type and format'>
          20
       </a>
     </li>
@@ -1108,7 +1269,7 @@ Products(&#39;b94d872a-ef4f-4117-8a6b-1a90466ae785&#39;)/$value&quot;
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=22 title='Data type and format'>
+        data-slide=22 title='Data format and type'>
          22
       </a>
     </li>
@@ -1120,7 +1281,7 @@ Products(&#39;b94d872a-ef4f-4117-8a6b-1a90466ae785&#39;)/$value&quot;
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=24 title='Data format and type'>
+        data-slide=24 title='Data type and format'>
          24
       </a>
     </li>
@@ -1150,19 +1311,19 @@ Products(&#39;b94d872a-ef4f-4117-8a6b-1a90466ae785&#39;)/$value&quot;
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=29 title='Data type and format'>
+        data-slide=29 title='Earth Explorer'>
          29
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=30 title='Earth Explorer'>
+        data-slide=30 title='Sentinel Scientific Data Hub'>
          30
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=31 title='Sentinel Scientific Data Hub'>
+        data-slide=31 title='Other examples of how to get the data'>
          31
       </a>
     </li>
@@ -1174,31 +1335,31 @@ Products(&#39;b94d872a-ef4f-4117-8a6b-1a90466ae785&#39;)/$value&quot;
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=33 title='Other examples of how to get the data'>
+        data-slide=33 title='How to extract information'>
          33
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=34 title='How to extract information'>
+        data-slide=34 title='Basic concepts'>
          34
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=35 title='Basic concepts'>
+        data-slide=35 title='Open source image processing'>
          35
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=36 title='Sentinel Application Platform (SNAP) | A common architecture for all Sentinel Toolboxes'>
+        data-slide=36 title='Sentinel Application Platform (SNAP)'>
          36
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=37 title='Sentinel Application Platform (SNAP) | A common architecture for all Sentinel Toolboxes'>
+        data-slide=37 title='Sentinel Application Platform (SNAP)'>
          37
       </a>
     </li>
@@ -1210,32 +1371,92 @@ Products(&#39;b94d872a-ef4f-4117-8a6b-1a90466ae785&#39;)/$value&quot;
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=39 title='The power of the Graph Builder and Graph Processing Tool'>
+        data-slide=39 title='The power of the Graph Builder and Graph Processing Tool (GPT)'>
          39
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=40 title='Now your turn...'>
+        data-slide=40 title='Acknowledgents'>
          40
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=41 title='Using Sentinel 1 toolbox (S1TBX) to get information about coastal systems [15 min, examples to be defined!]'>
+        data-slide=41 title='Now your turn...'>
          41
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=42 title='Using Sentinel 2 toolbox (S2TBX) to get information about coastal systems [15 min, examples to be defined!]'>
+        data-slide=42 title='Using Sentinel 1 toolbox (S1TBX) to get information about coastal systems [45 min]'>
          42
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=43 title='Together is better! Synergy products [15 min, examples to be defined!]'>
+        data-slide=43 title='Using the Graph Builder in S1TBX'>
          43
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=44 title='Open S1A-IW-GRDH product'>
+         44
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=45 title='Examine the S1A-IW-GRDH product'>
+         45
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=46 title='Subset S1A-IW-GRDH product'>
+         46
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=47 title='Apply at-sensor and top-of-atmosphere calibration'>
+         47
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=48 title='Apply a &#39;speckle&#39; filter'>
+         48
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=49 title='Apply a geometric correction'>
+         49
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=50 title='Convert to decibels'>
+         50
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=51 title='Examine the pre-processed product'>
+         51
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=52 title='Export the pre-processed product'>
+         52
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=53 title='Using the Graph Builder in S1TBX'>
+         53
       </a>
     </li>
   </ul>
