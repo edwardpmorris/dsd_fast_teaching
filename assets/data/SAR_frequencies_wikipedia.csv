@@ -1,0 +1,15 @@
+Band name;Frequency range;Wavelength range;Notes
+HF;3–30 MHz;10–100 m;"Coastal radar systems, over-the-horizon radar (OTH) radars; 'high frequency'"
+VHF;30–300 MHz;1–10 m;"Very long range, ground penetrating; 'very high frequency'"
+P;< 300 MHz;> 1 m;"'P' for 'previous', applied retrospectively to early radar systems; essentially HF + VHF"
+UHF;300–1000 MHz;0.3–1 m;"Very long range (e.g. ballistic missile early warning), ground penetrating, foliage penetrating; 'ultra high frequency'"
+L;1–2 GHz;15–30 cm;"Long range air traffic control and surveillance; 'L' for 'long'"
+S;2–4 GHz;7.5–15 cm;"Moderate range surveillance, Terminal air traffic control, long-range weather, marine radar; 'S' for 'short'"
+C;4–8 GHz;3.75–7.5 cm;"Satellite transponders; a compromise (hence 'C') between X and S bands; weather; long range tracking"
+X;8–12 GHz;2.5–3.75 cm;"Missile guidance, marine radar, weather, medium-resolution mapping and ground surveillance; in the USA the narrow range 10.525 GHz ±25 MHz is used for airport radar; short range tracking. Named X band because the frequency was a secret during WW2."
+Ku;12–18 GHz;1.67–2.5 cm;High-resolution, also used for satellite transponders, frequency under K band (hence 'u')
+K;18–24 GHz;1.11–1.67 cm;"From German kurz, meaning 'short'; limited use due to absorption by water vapour, so Ku and Ka were used instead for surveillance. K-band is used for detecting clouds by meteorologists, and by police for detecting speeding motorists. K-band radar guns operate at 24.150 ± 0.100 GHz."
+Ka;24–40 GHz;0.75–1.11 cm;"Mapping, short range, airport surveillance; frequency just above K band (hence 'a') Photo radar, used to trigger cameras which take pictures of license plates of cars running red lights, operates at 34.300 ± 0.100 GHz."
+mm;40–300 GHz;1.0–7.5 mm;Millimetre band, subdivided as below. The frequency ranges depend on waveguide size. Multiple letters are assigned to these bands by different groups. These are from Baytron, a now defunct company that made test equipment.
+V;40–75 GHz;4.0–7.5 mm;Very strongly absorbed by atmospheric oxygen, which resonates at 60 GHz.
+W;75–110 GHz;2.7–4.0 mm;Used as a visual sensor for experimental autonomous vehicles, high-resolution meteorological observation, and imaging.
