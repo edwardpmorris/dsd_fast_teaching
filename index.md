@@ -657,7 +657,7 @@ Packages and frameworks:
 --- .thankyou #id5 bg:url(assets/img/background_white_scientist_screen.png);background-size:cover;
 ## Acknowledgents
 
-+ The research leading to these results has received funding from the European Union Seventh Framework Programme (FP7/2007-2013) under grant agreement n° 607131. All views presented are those of the author’s, the European Union is not liable for any use that may be made of the information contained therein.
++ <img alt=Flag_of_Europe.svg" src="assets/img/Flag_of_Europe.svg" width=100px style="margin:10px 0px;vertical-align:middle"> The research leading to these results has received funding from the European Union Seventh Framework Programme (FP7/2007-2013) under grant agreement n° 607131. All views presented are those of the author’s, the European Union is not liable for any use that may be made of the information contained therein.
 + The [FAST project](www.fast-space-project.eu) team for support and contributions.
 + Landsat data courtesy of [USGS](http://www.usgs.gov/).
 + This presentation includes [Copernicus](http://www.copernicus.eu/) Sentinel data 2015.
