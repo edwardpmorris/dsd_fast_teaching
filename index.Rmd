@@ -604,7 +604,9 @@ Packages and frameworks:
 + [@FP7FAST](https://twitter.com/fp7fast)
 + facebook [FastSpaceProject](http://www.facebook.com/FastSpaceProject)
 
-+ get this talk: http://edwardpmorris.github.io/dsd_fast_teaching
+Get this talk:
+
++ http://edwardpmorris.github.io/dsd_fast_teaching
 
 
 *** =right
