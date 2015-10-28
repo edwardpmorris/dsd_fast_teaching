@@ -26,7 +26,7 @@ knit        : slidify::knit2slides
 <style> bg:url(assets/img/background_white_astronaut.png);background-size:cover;</style>
 
 
-<q>Light enables us to see the world around us. The capacity of light to carry and convey information is perhaps its most important, and remarkable, characteristic.  </q>
+<q>The capacity of light to carry and convey information is perhaps its most important, and remarkable, characteristic.  </q>
 
 <div style="position: absolute; left: 50px; top:400px;">
 <img alt="IYL_Logo_ColorVert.jpg" src="assets/img/IYL_Logo_ColorVert.jpg" height=200px style="margin:10px 0px"></div>
@@ -201,65 +201,87 @@ Spectral ratios, such as NDWI and NDVI can be used to <b>quantify properties of 
 
 
 --- &twocol .class1 #id3 bg:url(assets/img/background_white_astronaut.png);background-size:cover;
-## Active radio (SAR)
+## Active radio
 
-*** =left
+*** =right
 <div>
 <pw>
 <img alt="SAR_diagram.png" src="assets/img/SAR_diagram.png" width=500px style="margin:10px 0px"> "A geometric model of a SAR system" by <a href="http://www.mdpi.com/1424-8220/9/3/1876"> Zhou et al. 2009</a>.
 </pw>
 </div>
 
-*** =right
+*** =left
 ### Synthetic Aperture Radar (SAR)
 
 + active radio pulses sent and collected
-+ effective antena size much larger due to clever processing (Synthetic Aperture)
-+ allows increased spatial resolution
-+ measures polarised radio waves (horizontal and vertical)
++ effective antena size much larger using movement of satellite and clever processing (Synthetic Aperture).
++ measures polarised radio waves e.g., horizontal and vertical.
++ allows increased spatial resolution.
 
+---  .class1 #id3 bg:url(assets/img/background_white_astronaut.png);background-size:cover;
+## Active Radio
+
+### Synthetic Aperture Radar (SAR)
+
++ most common bands are L, C and X
++ different band frequencies are suited to different applications
+    + penetrating canopies: L and P, very high resolution: X, multi-purpose: C
+
+<div>
+<img alt="SAR-bands.png" src="assets/img/SAR-bands.png" width=1000px style="margin:10px 0px"> <pw>"Commonly used frequency bands..." by <a href="http://elib.dlr.de/82313/1/SAR-Tutorial-March-2013.pdf">Moreira et al. 2013</a>.
+</pw>
+</div>
 
 
 --- &twocol .class1 #id3 bg:url(assets/img/background_white_astronaut.png);background-size:cover;
-## Active Radio (SAR)
-
-*** =left
-<div>
-<pw>
-<img alt="radar-bands.jpg" src="assets/img/radar-bands.jpg" width=500px style="margin:10px 0px"> "A geometric model of a SAR system" by <a href="http://www.slideshare.net/hiteshchandanshive/radar-44309271">Hitesh Chandanshive </a>.
-</pw>
-</div>
+## Active Radio
 
 *** =right
+### Surface interactions 
 
-+ most common bands are C and X
-+ band wavelength determines the application (i.e., the size and penetration)
++ still water tends to be a specular reflector of radio waves i.e, usually low backscatter.
++ complex interactions with vegetation result in different return signals.
++ buildings often have strong backscatter signal.
++ interactions can vary wih the beam polarization.
 
-<div>
+*** =left
+
+<div .center>
 <pw>
-<img alt="radar-bands-penetration.jpg" src="assets/img/radar-bands-penetration.jpg" width=500px style="margin:10px 0px"> "Short wavelength X-band RADAR energy reflects from canopy surface while long wavelength P-band energy penetrates through canopy and reflects from stems and terrain surface " by <a href="http://forsys.cfr.washington.edu/JFSP06/radar_overview.htm">http://forsys.cfr.washington.edu/JFSP06/radar_overview.htm </a>, adapted from Moreira et al. (2001).
+<img alt="canopy-radar.png" src="assets/img/canopy-radar.png" width=500px style="margin:10px 0px"> "Surface and volume scattering of a SAR beam for trees " by (<a href="http://www.intechopen.com/books/advances-in-geoscience-and-remote-sensing/forest-inventory-using-optical-and-radar-remote-sensing">Fernandez-Ordonez et al. 2009.</a>).
 </pw>
 </div>
-
-
-SPECKLE FILTERING!
 
 --- &twocol .class1 #id3 bg:url(assets/img/background_white_astronaut.png);background-size:cover;
-## Active Radio (SAR)
+## Active Radio
+
+*** =right
+### Speckle
+
++ caused by the many scatterers in a 'pixel'.
++ coherence of the scattered signal results in strong fluctuations across the image.
++ 'multi-looking' used to reduce speckle at cost of spatial resolution.
+    + non-coherent averaging of the intensity image.
++ adaptive filtering can also be used to reduce speckle.
 
 *** =left
 
-+ surfaces have specific scattering and absorption properties (also for polarised waves)
-    + water tends to be a specular reflector of radio waves (usually not recollected by sensor)
-    + complex interactions with vegetation can result in specific return signals 
-
-*** =right
-
 <div>
 <pw>
-<img alt="canopy-radar.jpg" src="assets/img/canopy-radar.jpg" width=500px style="margin:10px 0px"> "Surface and volume scattering of a SAR beam for trees " by (<a href="http://www.intechopen.com/books/advances-in-geoscience-and-remote-sensing/forest-inventory-using-optical-and-radar-remote-sensing">Fernandez-Ordonez et al. 2009.</a>).
+<img alt="radar-speckle.png" src="assets/img/radar-speckle.png" width=500px style="margin:10px 0px"> "Speckle occurs in SAR images due to the coherent 
+sum of many elemental scatterers within a resolution cell..." by <a href="http://elib.dlr.de/82313/1/SAR-Tutorial-March-2013.pdf">Moreira et al. 2013</a>.
 </pw>
 </div>
+
+--- .class1 #id3 bg:black;
+## Active Radio
+
+<div style="position:absolute; left=0;">
+<pw>
+<img alt="banner-bangladesh1.jpg" src="assets/img/banner-bangladesh1.jpg" width=1200px style="margin:10px 0px"> <a href="http://sedas.satapps.org/wp-content/uploads/revslider/slider1/banner-bangladesh1.jpg"> "Interferometric Wide Swath Dual-Polarisation Sentinel-1 acquired on 2nd December 2014, band combination: VH-VV-VH (RGB) over the Sundarbans Mangrove, India and Bangladesh." © Copernicus (2014 / 2015) / ESA Image © Satellite Application Catapult Ltd, 2014</a>.
+</pw>
+</div>
+
 
 --- .class1 #id3 bg:url(assets/img/background_white_astronaut.png);background-size:cover;
 ## Further resources
@@ -398,7 +420,7 @@ The SENTINEL-SAFE format wraps a folder containing image data in a binary data f
 ### Sentinel 2 product types
 
 <div>
-<pw><a href="https://sentinel.esa.int/web/sentinel/missions/sentinel-2/data-products"><img alt=sentinel-2-product-types.png src="assets/img/sentinel-2-product-types.png" width=500px style="margin:10px 0px"> </a>
+<pw><a href="https://sentinel.esa.int/web/sentinel/missions/sentinel-2/data-products"><img alt=sentinel-2-product-types.png src="assets/img/sentinel-2-product-types.png" width=700px style="margin:10px 0px"> </a>
 <br><a href="https://sentinel.esa.int/web/sentinel/missions/sentinel-2/data-products">https://sentinel.esa.int/web/sentinel/missions/sentinel-2/data-products</a>.</pw>
 </div>
 
@@ -453,23 +475,6 @@ The SENTINEL-SAFE format wraps a folder containing image data in a binary data f
 + use of data implies acceptance of [Terms and Conditions of the use and distribution of Sentinel data](https://sentinel.esa.int/documents/247904/690755/Sentinel_Data_Terms_and_Conditions)
 + no limitations but must attribute 'Copernicus Sentinel data [Year]' or 'Contains modified Copernicus Sentinel data [Year]'
 
---- .class1 .smaller #id5 bg:url(assets/img/background_white_scientist_tablet.png);background-size:cover;
-## Other examples of how to get the data
-
-via commandline using curl (CHECK ME):
-
-```
-# search by product type and region
-curl -gu User:Password\
-"https://scihub.esa.int/dhus/search?
-q=producttype:GRD+AND+swathIdentifier:"IW"\
-+AND+footprint:"Intersects(POLYGON+((6.13+53.43,6.13+66.15,30.30+66.12,\
-30.30+53.43,6.13+53.43)))"&rows=100000&start=0\"
-
-# download a specific product
-S:\>curl -u User:Password -JO "https://scihub.esa.int/dhus/odata/v1/\
-Products('b94d872a-ef4f-4117-8a6b-1a90466ae785')/$value"
-```
 
 --- .class1 .smaller #id5 bg:url(assets/img/background_white_scientist_tablet.png);background-size:cover;
 ## Other examples of how to get the data
@@ -480,6 +485,13 @@ General:
     + Google Storage also mirrors much of these archives. You can install their “[gsutil](https://cloud.google.com/storage/docs/gsutil_install)” (free) and then list this directory, which is indexed by sensor (for example, L8 is Landsat 8) and path/row: `gsutil ls gs://earthengine-public/landsat/`
     + Note Sentinel-1 has undergone further pre-processing in GEE 
 
+Sentinels:
+
++ [Sentinel Data Access Service (SEDAS)](http://sedas.satapps.org); useful portal by UK Space Agency
+
+--- .class1 .smaller #id5 bg:url(assets/img/background_white_scientist_tablet.png);background-size:cover;
+## Other examples of how to get the data
+
 Landsat:
 
 + [USGS Earth Resources Observation and Science (EROS) Center Science Processing Architecture (ESPA) On Demand Interface](http://espa.cr.usgs.gov/) for higher level products and processing options
@@ -487,6 +499,14 @@ Landsat:
 + [GloVis](http://glovis.usgs.gov) an alternative to EarthExplorer
 + [Python Landsat-Download](http://olivierhagolle.github.io/LANDSAT-Download/)
 + [Python Landsat-util](https://github.com/developmentseed/landsat-util)
+
+Via commandline using curl:
+
+```
+# download a specific sentinel product
+S:\>curl -u User:Password -JO "https://scihub.esa.int/dhus/odata/v1/\
+Products('b94d872a-ef4f-4117-8a6b-1a90466ae785')/$value"
+```
 
 --- .segue #id6 bg:url(assets/img/background_scientist_screen.png);background-size:cover;background-color:#604c3f;
 ## How to extract information
@@ -512,33 +532,32 @@ Course classification: Assigning different classes (e.g., clouds, shadows, water
 *** =left
 with GUI:
 
-+ Sentinel Application Platform (SNAP); official software for processing sentinel data
-+ Quantum GIS (QGIS); extensible GIS system with many plugins linking to image processing packages (BEAM plugin).
-+ NEST
-+ BEAM
-+ Monteverdi2
-+ GRASS
++ [Sentinel Application Platform (SNAP)](http://step.esa.int/main/download/); official software for processing sentinel data, replaces NEST.
++ [Quantum GIS (QGIS)](www.qgis.org); extensible GIS system with many plugins linking to image processing packages (BEAM plugin).
++ [BEAM](http://www.brockmann-consult.de/cms/web/beam/releases)
++ [SeaDas](http://seadas.gsfc.nasa.gov/)
++ [Monteverdi2](http://sourceforge.net/projects/orfeo-toolbox/files/?source=navbar)
++ [GRASS](https://grass.osgeo.org/)
 
 *** =right
 
 Packages and frameworks:
 
-+ Google Earth Engine (JavaScript and Python)
-+ OTB
-+ Python S1TBX
-+ Python RSlib
-+ OpenCV
-+ R raster
++ [Google Earth Engine](https://earthengine.google.org); JavaScript and Python
++ [OTB](https://www.orfeo-toolbox.org); C
++ [RSGISLib](http://www.rsgislib.org/); Python 
++ [OpenCV](http://opencv.org/)
++ [raster](https://cran.r-project.org/web/packages/raster/index.html); R
 
 --- .class1 #id5 bg:url(assets/img/background_white_scientist_screen.png);background-size:cover;
 ## Sentinel Application Platform (SNAP)
 ### A common architecture for all Sentinel Toolboxes
 
-+ open-source (Java) available at [GitHub]() or precompiled at [STEP]()
-+ sucsessor of the mature [BEAM]() + [NEST]() software
-+ [Python bindings]()
++ open-source (Java) available at [GitHub](https://github.com/senbox-org) or precompiled at [STEP](http://step.esa.int/main/download/)
++ sucsessor of the mature BEAM + NEST software
++ Python bindings available soon?
 + Sensor specific toolboxes (Sentinels, but also other sensors)
-+ Developed by [Brockman Consult]() and [Array Systems Computing]() for ESA
++ Developed by Array (S-1), C-S (S-2) and Brockmann Consult (S-3) for ESA.
 
 --- .class1 #id5 bg:url(assets/img/background_white_scientist_screen.png);background-size:cover;
 
@@ -553,9 +572,9 @@ Packages and frameworks:
 ## Getting help 
 
 + Detailed in built help
-+ [Toolbox tutorials](), also consider NEST and BEAM tutorials.
-+ [SNAP forum](); a shared user experience
-+ [SNAP development](); how to contribute
++ [Toolbox tutorials](http://step.esa.int/main/doc/tutorials/), also consider NEST and BEAM tutorials.
++ [SNAP forum](http://forum.step.esa.int/); a shared user experience
++ [SNAP development](http://step.esa.int/main/developers/); how to contribute
 
 --- .class1 #id5 bg:url(assets/img/background_white_scientist_screen.png);background-size:cover;
 ## The power of the Graph Builder and Graph Processing Tool (GPT)
@@ -564,25 +583,38 @@ Packages and frameworks:
 + save workflows in XML and share
 + apply to single image or batch process many images
 + run from within the GUI or the commandline (GPT)
-+ ??access via Python??
 
 --- .thankyou #id5 bg:url(assets/img/background_white_scientist_screen.png);background-size:cover;
 ## Acknowledgents
 
 + The research leading to these results has received funding from the European Union Seventh Framework Programme (FP7/2007-2013) under grant agreement n° 607131. All views presented are those of the author’s, the European Union is not liable for any use that may be made of the information contained therein.
-+ FAST WP3, 4 and 5 teams for support and contributions.
++ The [FAST project](www.fast-space-project.eu) team for support and contributions.
 + Landsat data courtesy of [USGS](http://www.usgs.gov/).
 + This presentation includes [Copernicus](http://www.copernicus.eu/) Sentinel data 2015.
 + Videos from [NASA](https://www.nasa.gov/) and [ESA](www.esa.int) [YouTube](www.youtube.com) channels.
 + Comic design and production; [The Pilot Dog](www.thepilotdog.com)
 + Slide deck made using [slidify](http://slidify.org/)
 
+--- &twocol .thankyou #id5 bg:url(assets/img/background_white_scientist_screen.png);background-size:cover;
+## Find out more about FAST
+
+*** =left
+
++ www.fast-space-project.eu
++ [@FP7FAST](https://twitter.com/fp7fast)
++ facebook [FastSpaceProject](http://www.facebook.com/FastSpaceProject)
+
+*** =right
+
+<div>
+<pw><a data-flickr-embed="true"  href="https://www.flickr.com/photos/125003624@N04/16775340361/in/album-72157645545234996/" title="Foreshore Assessment using Space Technology project comic strip (EN)"><img src="https://farm8.staticflickr.com/7615/16775340361_88a99b5974_z.jpg" width="284" height="640" alt="Foreshore Assessment using Space Technology project comic strip (EN)"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script></pw>
+</div>
 
 --- .segue #id5 bg:url(assets/img/background_endusers.png);background-size:cover;background-color:#97bf0d;
 ## Now your turn...
 
 --- .class1 #id5 bg:url(assets/img/background_white_endusers.png);background-size:cover;
-## Using Sentinel 1 toolbox (S1TBX) to get information about coastal systems [45 min]
+## Using Sentinel 1 toolbox (S1TBX) to get information about coastal systems
 ### Introduction to the Sentinel 1 toolbox (S1TBX)
 
 This workshop will cover the basics of working with S1TBX to process Sentinel-1 data:
@@ -590,15 +622,6 @@ This workshop will cover the basics of working with S1TBX to process Sentinel-1 
 + open S1A-IW-GRDH product
 + basic pre-processing
 + export data
-
-+ examine file structure
-+ spatially subset the product
-+ apply at-sensor and top-of-atmosphere calibration (convert to sigma0).
-+ apply a speckle filter.
-+ apply elipsoid correction (georeference).
-+ convert to decibels (log-linear scale?).
-+ examine the image.
-+ export data.
 
 --- .class1 #id5 bg:url(assets/img/background_white_endusers.png);background-size:cover;
 ## Using the Graph Builder in S1TBX

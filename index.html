@@ -56,7 +56,7 @@
   <article data-timings="">
     <style> bg:url(assets/img/background_white_astronaut.png);background-size:cover;</style>
 
-<p><q>Light enables us to see the world around us. The capacity of light to carry and convey information is perhaps its most important, and remarkable, characteristic.  </q></p>
+<p><q>The capacity of light to carry and convey information is perhaps its most important, and remarkable, characteristic.  </q></p>
 
 <div style="position: absolute; left: 50px; top:400px;">
 <img alt="IYL_Logo_ColorVert.jpg" src="assets/img/IYL_Logo_ColorVert.jpg" height=200px style="margin:10px 0px"></div>
@@ -331,11 +331,22 @@ Spectral ratios, such as NDWI and NDVI can be used to <b>quantify properties of 
 </slide>
 <slide class="class1" id="id3" style="background:url(assets/img/background_white_astronaut.png);background-size:cover;;">
   <hgroup>
-    <h2>Active radio (SAR)</h2>
+    <h2>Active radio</h2>
   </hgroup>
   <article data-timings="">
     
 <div style='float:left;width:48%;' class='centered'>
+  <h3>Synthetic Aperture Radar (SAR)</h3>
+
+<ul>
+<li>active radio pulses sent and collected</li>
+<li>effective antena size much larger using movement of satellite and clever processing (Synthetic Aperture).</li>
+<li>measures polarised radio waves e.g., horizontal and vertical.</li>
+<li>allows increased spatial resolution.</li>
+</ul>
+
+</div>
+<div style='float:right;width:48%;'>
   <div>
 <pw>
 <img alt="SAR_diagram.png" src="assets/img/SAR_diagram.png" width=500px style="margin:10px 0px"> "A geometric model of a SAR system" by <a href="http://www.mdpi.com/1424-8220/9/3/1876"> Zhou et al. 2009</a>.
@@ -343,75 +354,105 @@ Spectral ratios, such as NDWI and NDVI can be used to <b>quantify properties of 
 </div>
 
 </div>
-<div style='float:right;width:48%;'>
-  <h3>Synthetic Aperture Radar (SAR)</h3>
-
-<ul>
-<li>active radio pulses sent and collected</li>
-<li>effective antena size much larger due to clever processing (Synthetic Aperture)</li>
-<li>allows increased spatial resolution</li>
-<li>measures polarised radio waves (horizontal and vertical)</li>
-</ul>
-
-</div>
   </article>
   <!-- Presenter Notes -->
 </slide>
 <slide class="class1" id="id3" style="background:url(assets/img/background_white_astronaut.png);background-size:cover;;">
   <hgroup>
-    <h2>Active Radio (SAR)</h2>
+    <h2>Active Radio</h2>
   </hgroup>
   <article data-timings="">
-    
-<div style='float:left;width:48%;' class='centered'>
-  <div>
-<pw>
-<img alt="radar-bands.jpg" src="assets/img/radar-bands.jpg" width=500px style="margin:10px 0px"> "A geometric model of a SAR system" by <a href="http://www.slideshare.net/hiteshchandanshive/radar-44309271">Hitesh Chandanshive </a>.
-</pw>
-</div>
-
-</div>
-<div style='float:right;width:48%;'>
-  <ul>
-<li>most common bands are C and X</li>
-<li>band wavelength determines the application (i.e., the size and penetration)</li>
-</ul>
-
-<div>
-<pw>
-<img alt="radar-bands-penetration.jpg" src="assets/img/radar-bands-penetration.jpg" width=500px style="margin:10px 0px"> "Short wavelength X-band RADAR energy reflects from canopy surface while long wavelength P-band energy penetrates through canopy and reflects from stems and terrain surface " by <a href="http://forsys.cfr.washington.edu/JFSP06/radar_overview.htm">http://forsys.cfr.washington.edu/JFSP06/radar_overview.htm </a>, adapted from Moreira et al. (2001).
-</pw>
-</div>
-
-</div>
-  </article>
-  <!-- Presenter Notes -->
-</slide>
-<slide class="class1" id="id3" style="background:url(assets/img/background_white_astronaut.png);background-size:cover;;">
-  <hgroup>
-    <h2>Active Radio (SAR)</h2>
-  </hgroup>
-  <article data-timings="">
-    
-<div style='float:left;width:48%;' class='centered'>
-  <ul>
-<li>surfaces have specific scattering and absorption properties (also for polarised waves)
+    <h3>Synthetic Aperture Radar (SAR)</h3>
 
 <ul>
-<li>water tends to be a specular reflector of radio waves (usually not recollected by sensor)</li>
-<li>complex interactions with vegetation can result in specific return signals </li>
+<li>most common bands are L, C and X</li>
+<li>different band frequencies are suited to different applications
+
+<ul>
+<li>penetrating canopies: L and P, very high resolution: X, multi-purpose: C</li>
 </ul></li>
 </ul>
 
+<div>
+<img alt="SAR-bands.png" src="assets/img/SAR-bands.png" width=1000px style="margin:10px 0px"> <pw>"Commonly used frequency bands..." by <a href="http://elib.dlr.de/82313/1/SAR-Tutorial-March-2013.pdf">Moreira et al. 2013</a>.
+</pw>
 </div>
-<div style='float:right;width:48%;'>
-  <div>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+<slide class="class1" id="id3" style="background:url(assets/img/background_white_astronaut.png);background-size:cover;;">
+  <hgroup>
+    <h2>Active Radio</h2>
+  </hgroup>
+  <article data-timings="">
+    
+<div style='float:left;width:48%;' class='centered'>
+  <div .center>
 <pw>
-<img alt="canopy-radar.jpg" src="assets/img/canopy-radar.jpg" width=500px style="margin:10px 0px"> "Surface and volume scattering of a SAR beam for trees " by (<a href="http://www.intechopen.com/books/advances-in-geoscience-and-remote-sensing/forest-inventory-using-optical-and-radar-remote-sensing">Fernandez-Ordonez et al. 2009.</a>).
+<img alt="canopy-radar.png" src="assets/img/canopy-radar.png" width=500px style="margin:10px 0px"> "Surface and volume scattering of a SAR beam for trees " by (<a href="http://www.intechopen.com/books/advances-in-geoscience-and-remote-sensing/forest-inventory-using-optical-and-radar-remote-sensing">Fernandez-Ordonez et al. 2009.</a>).
 </pw>
 </div>
 
 </div>
+<div style='float:right;width:48%;'>
+  <h3>Surface interactions</h3>
+
+<ul>
+<li>still water tends to be a specular reflector of radio waves i.e, usually low backscatter.</li>
+<li>complex interactions with vegetation result in different return signals.</li>
+<li>buildings often have strong backscatter signal.</li>
+<li>interactions can vary wih the beam polarization.</li>
+</ul>
+
+</div>
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+<slide class="class1" id="id3" style="background:url(assets/img/background_white_astronaut.png);background-size:cover;;">
+  <hgroup>
+    <h2>Active Radio</h2>
+  </hgroup>
+  <article data-timings="">
+    
+<div style='float:left;width:48%;' class='centered'>
+  <div>
+<pw>
+<img alt="radar-speckle.png" src="assets/img/radar-speckle.png" width=500px style="margin:10px 0px"> "Speckle occurs in SAR images due to the coherent 
+sum of many elemental scatterers within a resolution cell..." by <a href="http://elib.dlr.de/82313/1/SAR-Tutorial-March-2013.pdf">Moreira et al. 2013</a>.
+</pw>
+</div>
+
+</div>
+<div style='float:right;width:48%;'>
+  <h3>Speckle</h3>
+
+<ul>
+<li>caused by the many scatterers in a &#39;pixel&#39;.</li>
+<li>coherence of the scattered signal results in strong fluctuations across the image.</li>
+<li>&#39;multi-looking&#39; used to reduce speckle at cost of spatial resolution.
+
+<ul>
+<li>non-coherent averaging of the intensity image.</li>
+</ul></li>
+<li>adaptive filtering can also be used to reduce speckle.</li>
+</ul>
+
+</div>
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+<slide class="class1" id="id3" style="background:black;;">
+  <hgroup>
+    <h2>Active Radio</h2>
+  </hgroup>
+  <article data-timings="">
+    <div style="position:absolute; left=0;">
+<pw>
+<img alt="banner-bangladesh1.jpg" src="assets/img/banner-bangladesh1.jpg" width=1200px style="margin:10px 0px"> <a href="http://sedas.satapps.org/wp-content/uploads/revslider/slider1/banner-bangladesh1.jpg"> "Interferometric Wide Swath Dual-Polarisation Sentinel-1 acquired on 2nd December 2014, band combination: VH-VV-VH (RGB) over the Sundarbans Mangrove, India and Bangladesh." © Copernicus (2014 / 2015) / ESA Image © Satellite Application Catapult Ltd, 2014</a>.
+</pw>
+</div>
+
   </article>
   <!-- Presenter Notes -->
 </slide>
@@ -700,7 +741,7 @@ Spectral ratios, such as NDWI and NDVI can be used to <b>quantify properties of 
     <h3>Sentinel 2 product types</h3>
 
 <div>
-<pw><a href="https://sentinel.esa.int/web/sentinel/missions/sentinel-2/data-products"><img alt=sentinel-2-product-types.png src="assets/img/sentinel-2-product-types.png" width=500px style="margin:10px 0px"> </a>
+<pw><a href="https://sentinel.esa.int/web/sentinel/missions/sentinel-2/data-products"><img alt=sentinel-2-product-types.png src="assets/img/sentinel-2-product-types.png" width=700px style="margin:10px 0px"> </a>
 <br><a href="https://sentinel.esa.int/web/sentinel/missions/sentinel-2/data-products">https://sentinel.esa.int/web/sentinel/missions/sentinel-2/data-products</a>.</pw>
 </div>
 
@@ -791,28 +832,6 @@ Spectral ratios, such as NDWI and NDVI can be used to <b>quantify properties of 
     <h2>Other examples of how to get the data</h2>
   </hgroup>
   <article data-timings="">
-    <p>via commandline using curl (CHECK ME):</p>
-
-<pre><code># search by product type and region
-curl -gu User:Password\
-&quot;https://scihub.esa.int/dhus/search?
-q=producttype:GRD+AND+swathIdentifier:&quot;IW&quot;\
-+AND+footprint:&quot;Intersects(POLYGON+((6.13+53.43,6.13+66.15,30.30+66.12,\
-30.30+53.43,6.13+53.43)))&quot;&amp;rows=100000&amp;start=0\&quot;
-
-# download a specific product
-S:\&gt;curl -u User:Password -JO &quot;https://scihub.esa.int/dhus/odata/v1/\
-Products(&#39;b94d872a-ef4f-4117-8a6b-1a90466ae785&#39;)/$value&quot;
-</code></pre>
-
-  </article>
-  <!-- Presenter Notes -->
-</slide>
-<slide class="class1 smaller" id="id5" style="background:url(assets/img/background_white_scientist_tablet.png);background-size:cover;;">
-  <hgroup>
-    <h2>Other examples of how to get the data</h2>
-  </hgroup>
-  <article data-timings="">
     <p>General:</p>
 
 <ul>
@@ -824,7 +843,21 @@ Products(&#39;b94d872a-ef4f-4117-8a6b-1a90466ae785&#39;)/$value&quot;
 </ul></li>
 </ul>
 
-<p>Landsat:</p>
+<p>Sentinels:</p>
+
+<ul>
+<li><a href="http://sedas.satapps.org">Sentinel Data Access Service (SEDAS)</a>; useful portal by UK Space Agency</li>
+</ul>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+<slide class="class1 smaller" id="id5" style="background:url(assets/img/background_white_scientist_tablet.png);background-size:cover;;">
+  <hgroup>
+    <h2>Other examples of how to get the data</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>Landsat:</p>
 
 <ul>
 <li><a href="http://espa.cr.usgs.gov/">USGS Earth Resources Observation and Science (EROS) Center Science Processing Architecture (ESPA) On Demand Interface</a> for higher level products and processing options</li>
@@ -833,6 +866,13 @@ Products(&#39;b94d872a-ef4f-4117-8a6b-1a90466ae785&#39;)/$value&quot;
 <li><a href="http://olivierhagolle.github.io/LANDSAT-Download/">Python Landsat-Download</a></li>
 <li><a href="https://github.com/developmentseed/landsat-util">Python Landsat-util</a></li>
 </ul>
+
+<p>Via commandline using curl:</p>
+
+<pre><code># download a specific sentinel product
+S:\&gt;curl -u User:Password -JO &quot;https://scihub.esa.int/dhus/odata/v1/\
+Products(&#39;b94d872a-ef4f-4117-8a6b-1a90466ae785&#39;)/$value&quot;
+</code></pre>
 
   </article>
   <!-- Presenter Notes -->
@@ -878,12 +918,12 @@ Products(&#39;b94d872a-ef4f-4117-8a6b-1a90466ae785&#39;)/$value&quot;
   <p>with GUI:</p>
 
 <ul>
-<li>Sentinel Application Platform (SNAP); official software for processing sentinel data</li>
-<li>Quantum GIS (QGIS); extensible GIS system with many plugins linking to image processing packages (BEAM plugin).</li>
-<li>NEST</li>
-<li>BEAM</li>
-<li>Monteverdi2</li>
-<li>GRASS</li>
+<li><a href="http://step.esa.int/main/download/">Sentinel Application Platform (SNAP)</a>; official software for processing sentinel data, replaces NEST.</li>
+<li><a href="www.qgis.org">Quantum GIS (QGIS)</a>; extensible GIS system with many plugins linking to image processing packages (BEAM plugin).</li>
+<li><a href="http://www.brockmann-consult.de/cms/web/beam/releases">BEAM</a></li>
+<li><a href="http://seadas.gsfc.nasa.gov/">SeaDas</a></li>
+<li><a href="http://sourceforge.net/projects/orfeo-toolbox/files/?source=navbar">Monteverdi2</a></li>
+<li><a href="https://grass.osgeo.org/">GRASS</a></li>
 </ul>
 
 </div>
@@ -891,12 +931,11 @@ Products(&#39;b94d872a-ef4f-4117-8a6b-1a90466ae785&#39;)/$value&quot;
   <p>Packages and frameworks:</p>
 
 <ul>
-<li>Google Earth Engine (JavaScript and Python)</li>
-<li>OTB</li>
-<li>Python S1TBX</li>
-<li>Python RSlib</li>
-<li>OpenCV</li>
-<li>R raster</li>
+<li><a href="https://earthengine.google.org">Google Earth Engine</a>; JavaScript and Python</li>
+<li><a href="https://www.orfeo-toolbox.org">OTB</a>; C</li>
+<li><a href="http://www.rsgislib.org/">RSGISLib</a>; Python </li>
+<li><a href="http://opencv.org/">OpenCV</a></li>
+<li><a href="https://cran.r-project.org/web/packages/raster/index.html">raster</a>; R</li>
 </ul>
 
 </div>
@@ -911,11 +950,11 @@ Products(&#39;b94d872a-ef4f-4117-8a6b-1a90466ae785&#39;)/$value&quot;
     <h3>A common architecture for all Sentinel Toolboxes</h3>
 
 <ul>
-<li>open-source (Java) available at <a href="">GitHub</a> or precompiled at <a href="">STEP</a></li>
-<li>sucsessor of the mature <a href="">BEAM</a> + <a href="">NEST</a> software</li>
-<li><a href="">Python bindings</a></li>
+<li>open-source (Java) available at <a href="https://github.com/senbox-org">GitHub</a> or precompiled at <a href="http://step.esa.int/main/download/">STEP</a></li>
+<li>sucsessor of the mature BEAM + NEST software</li>
+<li>Python bindings available soon?</li>
 <li>Sensor specific toolboxes (Sentinels, but also other sensors)</li>
-<li>Developed by <a href="">Brockman Consult</a> and <a href="">Array Systems Computing</a> for ESA</li>
+<li>Developed by Array (S-1), C-S (S-2) and Brockmann Consult (S-3) for ESA.</li>
 </ul>
 
   </article>
@@ -941,9 +980,9 @@ Products(&#39;b94d872a-ef4f-4117-8a6b-1a90466ae785&#39;)/$value&quot;
   <article data-timings="">
     <ul>
 <li>Detailed in built help</li>
-<li><a href="">Toolbox tutorials</a>, also consider NEST and BEAM tutorials.</li>
-<li><a href="">SNAP forum</a>; a shared user experience</li>
-<li><a href="">SNAP development</a>; how to contribute</li>
+<li><a href="http://step.esa.int/main/doc/tutorials/">Toolbox tutorials</a>, also consider NEST and BEAM tutorials.</li>
+<li><a href="http://forum.step.esa.int/">SNAP forum</a>; a shared user experience</li>
+<li><a href="http://step.esa.int/main/developers/">SNAP development</a>; how to contribute</li>
 </ul>
 
   </article>
@@ -959,7 +998,6 @@ Products(&#39;b94d872a-ef4f-4117-8a6b-1a90466ae785&#39;)/$value&quot;
 <li>save workflows in XML and share</li>
 <li>apply to single image or batch process many images</li>
 <li>run from within the GUI or the commandline (GPT)</li>
-<li>??access via Python??</li>
 </ul>
 
   </article>
@@ -972,7 +1010,7 @@ Products(&#39;b94d872a-ef4f-4117-8a6b-1a90466ae785&#39;)/$value&quot;
   <article data-timings="">
     <ul>
 <li>The research leading to these results has received funding from the European Union Seventh Framework Programme (FP7/2007-2013) under grant agreement n° 607131. All views presented are those of the author’s, the European Union is not liable for any use that may be made of the information contained therein.</li>
-<li>FAST WP3, 4 and 5 teams for support and contributions.</li>
+<li>The <a href="www.fast-space-project.eu">FAST project</a> team for support and contributions.</li>
 <li>Landsat data courtesy of <a href="http://www.usgs.gov/">USGS</a>.</li>
 <li>This presentation includes <a href="http://www.copernicus.eu/">Copernicus</a> Sentinel data 2015.</li>
 <li>Videos from <a href="https://www.nasa.gov/">NASA</a> and <a href="www.esa.int">ESA</a> <a href="www.youtube.com">YouTube</a> channels.</li>
@@ -980,6 +1018,29 @@ Products(&#39;b94d872a-ef4f-4117-8a6b-1a90466ae785&#39;)/$value&quot;
 <li>Slide deck made using <a href="http://slidify.org/">slidify</a></li>
 </ul>
 
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+<slide class="thankyou" id="id5" style="background:url(assets/img/background_white_scientist_screen.png);background-size:cover;;">
+  <hgroup>
+    <h2>Find out more about FAST</h2>
+  </hgroup>
+  <article data-timings="">
+    
+<div style='float:left;width:48%;' class='centered'>
+  <ul>
+<li><a href="http://www.fast-space-project.eu">www.fast-space-project.eu</a></li>
+<li><a href="https://twitter.com/fp7fast">@FP7FAST</a></li>
+<li>facebook <a href="http://www.facebook.com/FastSpaceProject">FastSpaceProject</a></li>
+</ul>
+
+</div>
+<div style='float:right;width:48%;'>
+  <div>
+<pw><a data-flickr-embed="true"  href="https://www.flickr.com/photos/125003624@N04/16775340361/in/album-72157645545234996/" title="Foreshore Assessment using Space Technology project comic strip (EN)"><img src="https://farm8.staticflickr.com/7615/16775340361_88a99b5974_z.jpg" width="284" height="640" alt="Foreshore Assessment using Space Technology project comic strip (EN)"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script></pw>
+</div>
+
+</div>
   </article>
   <!-- Presenter Notes -->
 </slide>
@@ -994,7 +1055,7 @@ Products(&#39;b94d872a-ef4f-4117-8a6b-1a90466ae785&#39;)/$value&quot;
 </slide>
 <slide class="class1" id="id5" style="background:url(assets/img/background_white_endusers.png);background-size:cover;;">
   <hgroup>
-    <h2>Using Sentinel 1 toolbox (S1TBX) to get information about coastal systems [45 min]</h2>
+    <h2>Using Sentinel 1 toolbox (S1TBX) to get information about coastal systems</h2>
   </hgroup>
   <article data-timings="">
     <h3>Introduction to the Sentinel 1 toolbox (S1TBX)</h3>
@@ -1004,15 +1065,7 @@ Products(&#39;b94d872a-ef4f-4117-8a6b-1a90466ae785&#39;)/$value&quot;
 <ul>
 <li>open S1A-IW-GRDH product</li>
 <li>basic pre-processing</li>
-<li><p>export data</p></li>
-<li><p>examine file structure</p></li>
-<li><p>spatially subset the product</p></li>
-<li><p>apply at-sensor and top-of-atmosphere calibration (convert to sigma0).</p></li>
-<li><p>apply a speckle filter.</p></li>
-<li><p>apply elipsoid correction (georeference).</p></li>
-<li><p>convert to decibels (log-linear scale?).</p></li>
-<li><p>examine the image.</p></li>
-<li><p>export data.</p></li>
+<li>export data</li>
 </ul>
 
   </article>
@@ -1308,73 +1361,73 @@ Products(&#39;b94d872a-ef4f-4117-8a6b-1a90466ae785&#39;)/$value&quot;
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=16 title='Active radio (SAR)'>
+        data-slide=16 title='Active radio'>
          16
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=17 title='Active Radio (SAR)'>
+        data-slide=17 title='Active Radio'>
          17
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=18 title='Active Radio (SAR)'>
+        data-slide=18 title='Active Radio'>
          18
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=19 title='Further resources'>
+        data-slide=19 title='Active Radio'>
          19
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=20 title='How to access remote sensing data'>
+        data-slide=20 title='Active Radio'>
          20
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=21 title='Data availability'>
+        data-slide=21 title='Further resources'>
          21
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=22 title='Data type and format'>
+        data-slide=22 title='How to access remote sensing data'>
          22
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=23 title='Data type and format'>
+        data-slide=23 title='Data availability'>
          23
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=24 title='Data format and type'>
+        data-slide=24 title='Data type and format'>
          24
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=25 title='Data format and type'>
+        data-slide=25 title='Data type and format'>
          25
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=26 title='Data type and format'>
+        data-slide=26 title='Data format and type'>
          26
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=27 title='Data type and format'>
+        data-slide=27 title='Data format and type'>
          27
       </a>
     </li>
@@ -1398,152 +1451,170 @@ Products(&#39;b94d872a-ef4f-4117-8a6b-1a90466ae785&#39;)/$value&quot;
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=31 title='Earth Explorer'>
+        data-slide=31 title='Data type and format'>
          31
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=32 title='Sentinel Scientific Data Hub'>
+        data-slide=32 title='Data type and format'>
          32
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=33 title='Other examples of how to get the data'>
+        data-slide=33 title='Earth Explorer'>
          33
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=34 title='Other examples of how to get the data'>
+        data-slide=34 title='Sentinel Scientific Data Hub'>
          34
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=35 title='How to extract information'>
+        data-slide=35 title='Other examples of how to get the data'>
          35
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=36 title='Basic concepts'>
+        data-slide=36 title='Other examples of how to get the data'>
          36
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=37 title='Open source image processing'>
+        data-slide=37 title='How to extract information'>
          37
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=38 title='Sentinel Application Platform (SNAP)'>
+        data-slide=38 title='Basic concepts'>
          38
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=39 title='Sentinel Application Platform (SNAP)'>
+        data-slide=39 title='Open source image processing'>
          39
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=40 title='Getting help'>
+        data-slide=40 title='Sentinel Application Platform (SNAP)'>
          40
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=41 title='The power of the Graph Builder and Graph Processing Tool (GPT)'>
+        data-slide=41 title='Sentinel Application Platform (SNAP)'>
          41
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=42 title='Acknowledgents'>
+        data-slide=42 title='Getting help'>
          42
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=43 title='Now your turn...'>
+        data-slide=43 title='The power of the Graph Builder and Graph Processing Tool (GPT)'>
          43
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=44 title='Using Sentinel 1 toolbox (S1TBX) to get information about coastal systems [45 min]'>
+        data-slide=44 title='Acknowledgents'>
          44
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=45 title='Using the Graph Builder in S1TBX'>
+        data-slide=45 title='Find out more about FAST'>
          45
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=46 title='Open S1A-IW-GRDH product'>
+        data-slide=46 title='Now your turn...'>
          46
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=47 title='Examine the S1A-IW-GRDH product'>
+        data-slide=47 title='Using Sentinel 1 toolbox (S1TBX) to get information about coastal systems'>
          47
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=48 title='Subset S1A-IW-GRDH product'>
+        data-slide=48 title='Using the Graph Builder in S1TBX'>
          48
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=49 title='Apply at-sensor and top-of-atmosphere calibration'>
+        data-slide=49 title='Open S1A-IW-GRDH product'>
          49
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=50 title='Apply a &#39;speckle&#39; filter'>
+        data-slide=50 title='Examine the S1A-IW-GRDH product'>
          50
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=51 title='Apply a geometric correction'>
+        data-slide=51 title='Subset S1A-IW-GRDH product'>
          51
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=52 title='Convert to decibels'>
+        data-slide=52 title='Apply at-sensor and top-of-atmosphere calibration'>
          52
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=53 title='Examine the pre-processed product'>
+        data-slide=53 title='Apply a &#39;speckle&#39; filter'>
          53
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=54 title='Export the pre-processed product'>
+        data-slide=54 title='Apply a geometric correction'>
          54
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=55 title='Using the Graph Builder in S1TBX'>
+        data-slide=55 title='Convert to decibels'>
          55
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=56 title='Examine the pre-processed product'>
+         56
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=57 title='Export the pre-processed product'>
+         57
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=58 title='Using the Graph Builder in S1TBX'>
+         58
       </a>
     </li>
   </ul>
