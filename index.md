@@ -674,10 +674,13 @@ Packages and frameworks:
 + [@FP7FAST](https://twitter.com/fp7fast)
 + facebook [FastSpaceProject](http://www.facebook.com/FastSpaceProject)
 
++ get this talk: http://edwardpmorris.github.io/dsd_fast_teaching
+
+
 *** =right
 
 <div>
-<pw><a data-flickr-embed="true"  href="https://www.flickr.com/photos/125003624@N04/16775340361/in/album-72157645545234996/" title="Foreshore Assessment using Space Technology project comic strip (EN)"><img src="https://farm8.staticflickr.com/7615/16775340361_88a99b5974_z.jpg" width="284" height="640" alt="Foreshore Assessment using Space Technology project comic strip (EN)"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script></pw>
+<pw><a data-flickr-embed="true"  href="https://www.flickr.com/photos/125003624@N04/16775340361/in/album-72157645545234996/" title="Foreshore Assessment using Space Technology project comic strip (EN)"><img src="assets/img/FAST_ENGLISHLOW.jpg" width="284" height="640" alt="Foreshore Assessment using Space Technology project comic strip (EN)"></a></pw>
 </div>
 
 --- .segue #id5 bg:url(assets/img/background_endusers.png);background-size:cover;background-color:#97bf0d;
