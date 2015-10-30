@@ -39,7 +39,7 @@ knit        : slidify::knit2slides
 --- .class1 #id1 bg:black;
 
 
-<iframe src="https://www.youtube.com/embed/gF9UlTYR5d0?autoplay=1;controls=0&amp;showinfo=0;frameborder=-1" width="854" height="480" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+<iframe src="https://www.youtube.com/embed/gF9UlTYR5d0?autoplay=1;controls=0&amp;showinfo=0&amp;showinfo=0&amp;rel=0" width="854" height="480" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 
 <div style="position: absolute; left: 200px; top:625px; z-index:10; font-size:14px">
     <p>https://youtu.be/gF9UlTYR5d0</p>
@@ -49,7 +49,7 @@ knit        : slidify::knit2slides
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/28hImDyJXu0?controls=0&amp;showinfo=0;&start=36" frameborder="-1" allowfullscreen></iframe>
 
-<div style="position: absolute; left: 200px; top:625px; z-index:10; font-size:14px">
+<div style="position: absolute; left: 150px; top:650px; z-index:10; font-size:14px">
     <p>https://youtu.be/28hImDyJXu0?list=PLbyvawxScNbs9ET50PFwZTworudkNsnH_</p>
 </div>
 
@@ -179,7 +179,10 @@ The different pigments of photosynthetic organisms result in different 'colours'
 --- .class1 #id3 bg:url(assets/img/background_white_astronaut.png);background-size:cover;
 ## Passive visible and infrared
 
-<iframe src="http://www.nhm.ac.uk/visit/wpy/gallery/2015/images/from-the-sky/5014/the-art-of-algae.html" width="600" height="480" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+[Colorvision Cadiz Bay](http://www.esa.int/Our_Activities/Observing_the_Earth/Copernicus/Sentinel-2/Highlights/And_the_winner_is)
+
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/125003624@N04/17892737690/in/album-72157645194099219/" title="Saltmarshes of Cádiz Bay"><img src="https://farm9.staticflickr.com/8812/17892737690_6e71a9c33a_c.jpg" width="800" height="484" alt="Saltmarshes of Cádiz Bay"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+
 
 --- &twocol .class1 #id3 bg:url(assets/img/background_white_astronaut.png);background-size:cover;
 ## Passive visible and infrared
@@ -242,7 +245,7 @@ Spectral ratios, such as NDWI and NDVI can be used to <b>quantify properties of 
 + still water tends to be a specular reflector of radio waves i.e, usually low backscatter.
 + complex interactions with vegetation result in different return signals.
 + buildings often have strong backscatter signal.
-+ interactions can vary wih the beam polarization.
++ interactions vary with beam polarization i.e., different polarizations provide more information.
 
 *** =left
 
@@ -527,12 +530,12 @@ Morphological operations: Filtering, changing resolution, ect.
 Course classification: Assigning different classes (e.g., clouds, shadows, water) using segmentation or clustering.
 
 --- &twocol  .class1 #id5 bg:url(assets/img/background_white_scientist_screen.png);background-size:cover;
-## Open source image processing
+## Open source image processing (some options)
 
 *** =left
 with GUI:
 
-+ [Sentinel Application Platform (SNAP)](http://step.esa.int/main/download/); official software for processing sentinel data, replaces NEST.
++ [Sentinel Application Platform (SNAP)](http://step.esa.int/main/download/); official software for processing sentinel data, integrates NEST and BEAM.
 + [Quantum GIS (QGIS)](www.qgis.org); extensible GIS system with many plugins linking to image processing packages (BEAM plugin).
 + [BEAM](http://www.brockmann-consult.de/cms/web/beam/releases)
 + [SeaDas](http://seadas.gsfc.nasa.gov/)
@@ -544,20 +547,21 @@ with GUI:
 Packages and frameworks:
 
 + [Google Earth Engine](https://earthengine.google.org); JavaScript and Python
-+ [OTB](https://www.orfeo-toolbox.org); C
++ [Orpheo Toolbox (OTB)](https://www.orfeo-toolbox.org); C
 + [RSGISLib](http://www.rsgislib.org/); Python 
-+ [OpenCV](http://opencv.org/)
++ [OpenCV](http://opencv.org/); C, Python
 + [raster](https://cran.r-project.org/web/packages/raster/index.html); R
 
 --- .class1 #id5 bg:url(assets/img/background_white_scientist_screen.png);background-size:cover;
 ## Sentinel Application Platform (SNAP)
 ### A common architecture for all Sentinel Toolboxes
 
-+ open-source (Java) available at [GitHub](https://github.com/senbox-org) or precompiled at [STEP](http://step.esa.int/main/download/)
-+ sucsessor of the mature BEAM + NEST software
++ open-source (Java) available at [GitHub](https://github.com/senbox-org) or precompiled at [STEP](http://step.esa.int/main/download/).
++ successor of the mature BEAM + NEST software.
++ efficient parralization of calculations resulting in good performance on modern PCs.
 + Python bindings available soon?
-+ Sensor specific toolboxes (Sentinels, but also other sensors)
-+ Developed by Array (S-1), C-S (S-2) and Brockmann Consult (S-3) for ESA.
++ Sensor specific toolboxes (Sentinels, but also many other sensors).
++ Developed by Array Systems and DLR (S-1), C-S (S-2) and Brockmann Consult (S-3) for ESA.
 
 --- .class1 #id5 bg:url(assets/img/background_white_scientist_screen.png);background-size:cover;
 
@@ -582,12 +586,26 @@ Packages and frameworks:
 + graphical building of workflows [graphs]
 + save workflows in XML and share
 + apply to single image or batch process many images
-+ run from within the GUI or the commandline (GPT)
++ run from within the GUI or the command line (GPT)
+
+--- .class1 #id5 bg:url(assets/img/background_white_scientist_screen.png);background-size:cover;
+## ESA Research and Service Support (RSS)
+
+'[RSS](www.rssportal.esa.int) has the mission to support the Earth Observation (EO) comunity in exploiting EO data'
+
++ supports institutions, scientists and developers.
++ supports data provisioning, access and processing.
++ help to scale up workflows
++ <b>computation on demand</b> and <b>cloud computing service</b> free for 'non-profit' organisations.
+    + contact rss_team@esa.int to check conditions and egibility.
+
 
 --- .thankyou #id5 bg:url(assets/img/background_white_scientist_screen.png);background-size:cover;
 ## Acknowledgents
 
-+ <img alt=Flag_of_Europe.svg" src="assets/img/Flag_of_Europe.svg" width=100px style="margin:10px 0px;vertical-align:middle"> The research leading to these results has received funding from the European Union Seventh Framework Programme (FP7/2007-2013) under grant agreement n° 607131. All views presented are those of the author’s, the European Union is not liable for any use that may be made of the information contained therein.
+<p>
+<img alt=Flag_of_Europe.svg" src="assets/img/Flag_of_Europe.svg" style="height:150px;margin:10px 10px;float:left"> The research leading to these results has received funding from the European Union Seventh Framework Programme (FP7/2007-2013) under grant agreement n° 607131. All views presented are those of the author’s, the European Union is not liable for any use that may be made of the information contained therein.
+</p>
 + The [FAST project](www.fast-space-project.eu) team for support and contributions.
 + Landsat data courtesy of [USGS](http://www.usgs.gov/).
 + This presentation includes [Copernicus](http://www.copernicus.eu/) Sentinel data 2015.
@@ -602,12 +620,12 @@ Packages and frameworks:
 
 + www.fast-space-project.eu
 + [@FP7FAST](https://twitter.com/fp7fast)
-+ facebook [FastSpaceProject](http://www.facebook.com/FastSpaceProject)
++ Facebook [FastSpaceProject](http://www.facebook.com/FastSpaceProject)
 
 Get this talk:
 
-+ http://edwardpmorris.github.io/dsd_fast_teaching
-
++ slides: http://edwardpmorris.github.io/dsd_fast_teaching
++ source: http://edwardpmorris.github.com/dsd_fast_teaching
 
 *** =right
 

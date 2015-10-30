@@ -69,7 +69,7 @@
 </slide>
 <slide class="class1" id="id1" style="background:black;;">
   <article data-timings="">
-    <iframe src="https://www.youtube.com/embed/gF9UlTYR5d0?autoplay=1;controls=0&amp;showinfo=0;frameborder=-1" width="854" height="480" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+    <iframe src="https://www.youtube.com/embed/gF9UlTYR5d0?autoplay=1;controls=0&amp;showinfo=0&amp;showinfo=0&amp;rel=0" width="854" height="480" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 
 <div style="position: absolute; left: 200px; top:625px; z-index:10; font-size:14px">
     <p>https://youtu.be/gF9UlTYR5d0</p>
@@ -82,7 +82,7 @@
   <article data-timings="">
     <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/28hImDyJXu0?controls=0&amp;showinfo=0;&start=36" frameborder="-1" allowfullscreen></iframe>
 
-<div style="position: absolute; left: 200px; top:625px; z-index:10; font-size:14px">
+<div style="position: absolute; left: 200px; top:635px; z-index:10; font-size:14px">
     <p>https://youtu.be/28hImDyJXu0?list=PLbyvawxScNbs9ET50PFwZTworudkNsnH_</p>
 </div>
 
@@ -298,7 +298,9 @@ The different pigments of photosynthetic organisms result in different 'colours'
     <h2>Passive visible and infrared</h2>
   </hgroup>
   <article data-timings="">
-    <iframe src="http://www.nhm.ac.uk/visit/wpy/gallery/2015/images/from-the-sky/5014/the-art-of-algae.html" width="600" height="480" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+    <p><a href="http://www.esa.int/Our_Activities/Observing_the_Earth/Copernicus/Sentinel-2/Highlights/And_the_winner_is">Colorvision Cadiz Bay</a></p>
+
+<p><a data-flickr-embed="true"  href="https://www.flickr.com/photos/125003624@N04/17892737690/in/album-72157645194099219/" title="Saltmarshes of Cádiz Bay"><img src="https://farm9.staticflickr.com/8812/17892737690_6e71a9c33a_c.jpg" width="800" height="484" alt="Saltmarshes of Cádiz Bay"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script></p>
 
   </article>
   <!-- Presenter Notes -->
@@ -402,7 +404,7 @@ Spectral ratios, such as NDWI and NDVI can be used to <b>quantify properties of 
 <li>still water tends to be a specular reflector of radio waves i.e, usually low backscatter.</li>
 <li>complex interactions with vegetation result in different return signals.</li>
 <li>buildings often have strong backscatter signal.</li>
-<li>interactions can vary wih the beam polarization.</li>
+<li>interactions vary with beam polarization i.e., different polarizations provide more information.</li>
 </ul>
 
 </div>
@@ -910,7 +912,7 @@ Products(&#39;b94d872a-ef4f-4117-8a6b-1a90466ae785&#39;)/$value&quot;
 </slide>
 <slide class="class1" id="id5" style="background:url(assets/img/background_white_scientist_screen.png);background-size:cover;;">
   <hgroup>
-    <h2>Open source image processing</h2>
+    <h2>Open source image processing (some options)</h2>
   </hgroup>
   <article data-timings="">
     
@@ -918,7 +920,7 @@ Products(&#39;b94d872a-ef4f-4117-8a6b-1a90466ae785&#39;)/$value&quot;
   <p>with GUI:</p>
 
 <ul>
-<li><a href="http://step.esa.int/main/download/">Sentinel Application Platform (SNAP)</a>; official software for processing sentinel data, replaces NEST.</li>
+<li><a href="http://step.esa.int/main/download/">Sentinel Application Platform (SNAP)</a>; official software for processing sentinel data, integrates NEST and BEAM.</li>
 <li><a href="www.qgis.org">Quantum GIS (QGIS)</a>; extensible GIS system with many plugins linking to image processing packages (BEAM plugin).</li>
 <li><a href="http://www.brockmann-consult.de/cms/web/beam/releases">BEAM</a></li>
 <li><a href="http://seadas.gsfc.nasa.gov/">SeaDas</a></li>
@@ -932,9 +934,9 @@ Products(&#39;b94d872a-ef4f-4117-8a6b-1a90466ae785&#39;)/$value&quot;
 
 <ul>
 <li><a href="https://earthengine.google.org">Google Earth Engine</a>; JavaScript and Python</li>
-<li><a href="https://www.orfeo-toolbox.org">OTB</a>; C</li>
+<li><a href="https://www.orfeo-toolbox.org">Orpheo Toolbox (OTB)</a>; C</li>
 <li><a href="http://www.rsgislib.org/">RSGISLib</a>; Python </li>
-<li><a href="http://opencv.org/">OpenCV</a></li>
+<li><a href="http://opencv.org/">OpenCV</a>; C, Python</li>
 <li><a href="https://cran.r-project.org/web/packages/raster/index.html">raster</a>; R</li>
 </ul>
 
@@ -950,11 +952,12 @@ Products(&#39;b94d872a-ef4f-4117-8a6b-1a90466ae785&#39;)/$value&quot;
     <h3>A common architecture for all Sentinel Toolboxes</h3>
 
 <ul>
-<li>open-source (Java) available at <a href="https://github.com/senbox-org">GitHub</a> or precompiled at <a href="http://step.esa.int/main/download/">STEP</a></li>
-<li>sucsessor of the mature BEAM + NEST software</li>
+<li>open-source (Java) available at <a href="https://github.com/senbox-org">GitHub</a> or precompiled at <a href="http://step.esa.int/main/download/">STEP</a>.</li>
+<li>successor of the mature BEAM + NEST software.</li>
+<li>efficient parralization of calculations resulting in good performance on modern PCs.</li>
 <li>Python bindings available soon?</li>
-<li>Sensor specific toolboxes (Sentinels, but also other sensors)</li>
-<li>Developed by Array (S-1), C-S (S-2) and Brockmann Consult (S-3) for ESA.</li>
+<li>Sensor specific toolboxes (Sentinels, but also many other sensors).</li>
+<li>Developed by Array Systems and DLR (S-1), C-S (S-2) and Brockmann Consult (S-3) for ESA.</li>
 </ul>
 
   </article>
@@ -997,7 +1000,28 @@ Products(&#39;b94d872a-ef4f-4117-8a6b-1a90466ae785&#39;)/$value&quot;
 <li>graphical building of workflows [graphs]</li>
 <li>save workflows in XML and share</li>
 <li>apply to single image or batch process many images</li>
-<li>run from within the GUI or the commandline (GPT)</li>
+<li>run from within the GUI or the command line (GPT)</li>
+</ul>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+<slide class="class1" id="id5" style="background:url(assets/img/background_white_scientist_screen.png);background-size:cover;;">
+  <hgroup>
+    <h2>ESA Research and Service Support (RSS)</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>&#39;<a href="www.rssportal.esa.int">RSS</a> has the mission to support the Earth Observation (EO) comunity in exploiting EO data&#39;</p>
+
+<ul>
+<li>supports institutions, scientists and developers.</li>
+<li>supports data provisioning, access and processing.</li>
+<li>help to scale up workflows</li>
+<li><b>computation on demand</b> and <b>cloud computing service</b> free for &#39;non-profit&#39; organisations.
+
+<ul>
+<li>contact <a href="mailto:rss_team@esa.int">rss_team@esa.int</a> to check conditions and egibility.</li>
+</ul></li>
 </ul>
 
   </article>
@@ -1008,8 +1032,11 @@ Products(&#39;b94d872a-ef4f-4117-8a6b-1a90466ae785&#39;)/$value&quot;
     <h2>Acknowledgents</h2>
   </hgroup>
   <article data-timings="">
-    <ul>
-<li><img alt=Flag_of_Europe.svg" src="assets/img/Flag_of_Europe.svg" width=100px style="margin:10px 0px;vertical-align:middle"> The research leading to these results has received funding from the European Union Seventh Framework Programme (FP7/2007-2013) under grant agreement n° 607131. All views presented are those of the author’s, the European Union is not liable for any use that may be made of the information contained therein.</li>
+    <p>
+<img alt=Flag_of_Europe.svg" src="assets/img/Flag_of_Europe.svg" style="height:150px;margin:10px 10px;float:left"> The research leading to these results has received funding from the European Union Seventh Framework Programme (FP7/2007-2013) under grant agreement n° 607131. All views presented are those of the author’s, the European Union is not liable for any use that may be made of the information contained therein.
+</p>
+
+<ul>
 <li>The <a href="www.fast-space-project.eu">FAST project</a> team for support and contributions.</li>
 <li>Landsat data courtesy of <a href="http://www.usgs.gov/">USGS</a>.</li>
 <li>This presentation includes <a href="http://www.copernicus.eu/">Copernicus</a> Sentinel data 2015.</li>
@@ -1031,13 +1058,14 @@ Products(&#39;b94d872a-ef4f-4117-8a6b-1a90466ae785&#39;)/$value&quot;
   <ul>
 <li><a href="http://www.fast-space-project.eu">www.fast-space-project.eu</a></li>
 <li><a href="https://twitter.com/fp7fast">@FP7FAST</a></li>
-<li>facebook <a href="http://www.facebook.com/FastSpaceProject">FastSpaceProject</a></li>
+<li>Facebook <a href="http://www.facebook.com/FastSpaceProject">FastSpaceProject</a></li>
 </ul>
 
 <p>Get this talk:</p>
 
 <ul>
-<li><a href="http://edwardpmorris.github.io/dsd_fast_teaching">http://edwardpmorris.github.io/dsd_fast_teaching</a></li>
+<li>slides: <a href="http://edwardpmorris.github.io/dsd_fast_teaching">http://edwardpmorris.github.io/dsd_fast_teaching</a></li>
+<li>source: <a href="http://edwardpmorris.github.com/dsd_fast_teaching">http://edwardpmorris.github.com/dsd_fast_teaching</a></li>
 </ul>
 
 </div>
@@ -1505,7 +1533,7 @@ Products(&#39;b94d872a-ef4f-4117-8a6b-1a90466ae785&#39;)/$value&quot;
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=39 title='Open source image processing'>
+        data-slide=39 title='Open source image processing (some options)'>
          39
       </a>
     </li>
@@ -1535,92 +1563,98 @@ Products(&#39;b94d872a-ef4f-4117-8a6b-1a90466ae785&#39;)/$value&quot;
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=44 title='Acknowledgents'>
+        data-slide=44 title='ESA Research and Service Support (RSS)'>
          44
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=45 title='Find out more about FAST'>
+        data-slide=45 title='Acknowledgents'>
          45
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=46 title='Now your turn...'>
+        data-slide=46 title='Find out more about FAST'>
          46
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=47 title='Using Sentinel 1 toolbox (S1TBX) to get information about coastal systems'>
+        data-slide=47 title='Now your turn...'>
          47
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=48 title='Using the Graph Builder in S1TBX'>
+        data-slide=48 title='Using Sentinel 1 toolbox (S1TBX) to get information about coastal systems'>
          48
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=49 title='Open S1A-IW-GRDH product'>
+        data-slide=49 title='Using the Graph Builder in S1TBX'>
          49
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=50 title='Examine the S1A-IW-GRDH product'>
+        data-slide=50 title='Open S1A-IW-GRDH product'>
          50
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=51 title='Subset S1A-IW-GRDH product'>
+        data-slide=51 title='Examine the S1A-IW-GRDH product'>
          51
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=52 title='Apply at-sensor and top-of-atmosphere calibration'>
+        data-slide=52 title='Subset S1A-IW-GRDH product'>
          52
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=53 title='Apply a &#39;speckle&#39; filter'>
+        data-slide=53 title='Apply at-sensor and top-of-atmosphere calibration'>
          53
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=54 title='Apply a geometric correction'>
+        data-slide=54 title='Apply a &#39;speckle&#39; filter'>
          54
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=55 title='Convert to decibels'>
+        data-slide=55 title='Apply a geometric correction'>
          55
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=56 title='Examine the pre-processed product'>
+        data-slide=56 title='Convert to decibels'>
          56
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=57 title='Export the pre-processed product'>
+        data-slide=57 title='Examine the pre-processed product'>
          57
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=58 title='Using the Graph Builder in S1TBX'>
+        data-slide=58 title='Export the pre-processed product'>
          58
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=59 title='Using the Graph Builder in S1TBX'>
+         59
       </a>
     </li>
   </ul>
