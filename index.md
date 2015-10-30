@@ -49,7 +49,7 @@ knit        : slidify::knit2slides
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/28hImDyJXu0?controls=0&amp;showinfo=0;&start=36" frameborder="-1" allowfullscreen></iframe>
 
-<div style="position: absolute; left: 200px; top:635px; z-index:10; font-size:14px">
+<div style="position: absolute; left: 150px; top:650px; z-index:10; font-size:14px">
     <p>https://youtu.be/28hImDyJXu0?list=PLbyvawxScNbs9ET50PFwZTworudkNsnH_</p>
 </div>
 
@@ -695,7 +695,7 @@ Packages and frameworks:
 Get this talk:
 
 + slides: http://edwardpmorris.github.io/dsd_fast_teaching
-+ source: http://edwardpmorris.github.com/dsd_fast_teaching
++ source: https://github.com/edwardpmorris/dsd_fast_teaching
 
 *** =right
 

@@ -625,7 +625,7 @@ Packages and frameworks:
 Get this talk:
 
 + slides: http://edwardpmorris.github.io/dsd_fast_teaching
-+ source: http://edwardpmorris.github.com/dsd_fast_teaching
++ source: https://github.com/edwardpmorris/dsd_fast_teaching
 
 *** =right
 
