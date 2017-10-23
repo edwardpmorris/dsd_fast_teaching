@@ -12,14 +12,14 @@ author:
 #  www: http://rnm214.uca.es/CV/emorris/cvepmorris
 #- company: NIOZ
 #  name: Bas Oteman
-date: "Delft Software Days 2015-10-30"
+date: "Delft Software Days 2016-01-17"
 logo        : UCA-ceimar-NIOZ-FAST-logo-1100-198-transparent.png
 biglogo     : FAST_ENGLISHLOW.jpg
 framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
 highlighter : prettify      # {highlight.js, prettify, highlight}
 hitheme     : tomorrow      # 
 widgets     : []            # {mathjax, quiz, bootstrap}
-mode        : selfcontained # {selfcontained, standalone, draft}
+mode        : standalone # {selfcontained, standalone, draft}
 knit        : slidify::knit2slides
 ---
 
@@ -309,6 +309,11 @@ Active radar (SAR):
 
 --- .class1 #id5 bg:url(assets/img/background_white_scientist_tablet.png);background-size:cover;
 ## Data availability
+
+
+```
+## Loading required package: knitr
+```
 
 <table>
 <caption>Some earth observation satellites with open access data, based on <a href=http://wiki.landscapetoolbox.org/doku.php/remote_sensor_types:home>wiki.landscapetoolbox.org</a>. *C=Color, E=Elevation, H=Hyperspectral, M=Multispectral, P=Panchromatic, R=Syntheric Aperature Radar</caption>
